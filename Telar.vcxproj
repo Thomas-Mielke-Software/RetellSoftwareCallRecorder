@@ -763,14 +763,12 @@ echo.
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hlp\HTMLDefines.h;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)$(ProjectName).chm;%(Outputs)</Outputs>
     </CustomBuild>
+    <None Include="README.md" />
     <None Include="res\Telar.rc2" />
     <None Include="Telar.reg" />
     <None Include="wavein\wavein.dsp" />
     <None Include="wavein\wavein.dsw" />
     <None Include="wavein\wavein.vcproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TelArLangCzech\telarlangczech.vcxproj">

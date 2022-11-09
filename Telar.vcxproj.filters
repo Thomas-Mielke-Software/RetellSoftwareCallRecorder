@@ -809,9 +809,7 @@
     <None Include="wavein\wavein.dsp" />
     <None Include="wavein\wavein.dsw" />
     <None Include="wavein\wavein.vcproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Resource.h">

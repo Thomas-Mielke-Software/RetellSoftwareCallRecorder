@@ -30,6 +30,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "w32SQLite3", "w32SQLite3\w3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wavein", "wavein\wavein.vcxproj", "{EEEC4056-AA62-4CA4-9992-5CE902FDCF8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCRVistaHelper", "_Stuff\SCRVistaHelper\SCRVistaHelper.vcxproj", "{876773A2-A652-4891-BDD2-8A7B2803D4CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -150,6 +152,14 @@ Global
 		{EEEC4056-AA62-4CA4-9992-5CE902FDCF8A}.Release|Win32.Build.0 = Release|Win32
 		{EEEC4056-AA62-4CA4-9992-5CE902FDCF8A}.Release|x64.ActiveCfg = Release|x64
 		{EEEC4056-AA62-4CA4-9992-5CE902FDCF8A}.Release|x64.Build.0 = Release|x64
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Debug|Win32.Build.0 = Debug|Win32
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Debug|x64.ActiveCfg = Debug|x64
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Debug|x64.Build.0 = Debug|x64
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Release|Win32.ActiveCfg = Release|Win32
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Release|Win32.Build.0 = Release|Win32
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Release|x64.ActiveCfg = Release|x64
+		{876773A2-A652-4891-BDD2-8A7B2803D4CF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ The source code is therefore not a good example on how to use C++ in a modern wo
 ## Build
 
 To build, you need Microsoft Visual Studio 2022 (Preview) with C++ and MFC support. You also need a static build of the ResizableLib https://github.com/ppescher/resizablelib.
-Before Running, copy a vendor dll into your debug or release folder. Packaging is done using InnoSetup.
+Before Running, copy SCRVistaHelper.dll and a vendor dll into your debug or release folder. Packaging is done using InnoSetup.
 
 ## License
 
