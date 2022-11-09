@@ -1,0 +1,380 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "mailto:mielket@gmx.de"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "TELAR Language DLL (German)"
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "TelArLangDeutsch"
+            VALUE "LegalCopyright", "Copyright © 2022 Thomas Mielke Softwareentwicklung"
+            VALUE "OriginalFilename", "Telarlng.dll"
+            VALUE "ProductName", "SCR 957"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1             "D"
+    IDS_STRING2             "ACHTUNG: Dies ist eine Demo-Version, die nur zu Vorführzwecken gedacht ist. Um eine Vollversion zu bekommen kontakten Sie %s"
+    IDS_STRING3             "ACHTUNG: Der 65-Tage-Probezeitraum ist vorbei. Wenn Sie unser Produkt überzeugt hat, kontaktieren Sie bitte %s"
+    IDS_STRING4             "manuelle Aufnahme"
+    IDS_STRING5             "Automatik start"
+    IDS_STRING6             "Aufnahme beenden"
+    IDS_STRING7             "Automatik stop"
+    IDS_STRING8             "Letzte Aufnahme"
+    IDS_STRING9             "ACHTUNG: Die alte Datei '%s' konnte nicht nicht entsprechend der neuen Programmversion aktualisiert werden. Die Daten für dieses Telefonat konnten nicht gespeichert werden, das Telefonat selbst ist jedoch unter '%s' gesichert."
+    IDS_STRING10            "Aufnahme: Bitte unter 'Einstellungen' ein Verzeichnis für das Archiv wählen!"
+    IDS_STRING11            "Aufnahme: Bitte unter 'Einstellungen' ein Audio-Gerät für die Aufnahme wählen!"
+    IDS_STRING12            "Aufnahme: Bitte unter 'CODECs' einen CODEC + Subformat wählen!"
+    IDS_STRING13            "*%04d/%02d/%02d"
+    IDS_STRING14            "Aufnahme konnte nicht gestartet werden."
+    IDS_STRING15            "automatisches Beenden in %d Sekunden"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING16            "Automatik überwacht den Leitungspegel"
+    IDS_STRING17            "automatische Aufnahme läuft"
+    IDS_STRING18            "Zum manuellen Aufzeichnen die mittlere Maustaste doppelklicken"
+    IDS_STRING19            "Zum Beenden der Aufnahme die mittlere Maustaste doppelklicken"
+    IDS_STRING20            "ACHTUNG: Hiermit wird der Software Call Recorder deaktiviert."
+    IDS_STRING21            "Wiedergabe ist momentan nicht möglich, da eine Aufnahme stattfindet!"
+    IDS_STRING22            "<MS-PCM ohne CODEC>"
+    IDS_STRING23            "Eingabefehler: Für die Signal-Empfindlichkeit bitte einen Wert von 1 bis 100 angeben!"
+    IDS_STRING24            "Eingabefehler: Für die Start-Signaldauer bitte einen Wert von 1 bis 100 angeben!"
+    IDS_STRING25            "Eingabefehler: Für die Stop-Signalausfalldauer bitte einen Wert von 1 bis 100 angeben!"
+    IDS_STRING26            "Software Call Recorder öffnen mit Doppelklick"
+    IDS_STRING27            "Das Gespräch konnte nicht verschlüsselt werden. Die Aufzeichnung liegt aber als WAV-Datei unter '%s'."
+    IDS_STRING28            "Die temporäre unverschlüsselte Datei '%s' konnte nicht gelöscht werden. Bitte manuell löschen und ggf. Netzwerkrechte für das Löschen im Archivverzeichnis setzen."
+    IDS_STRING29            "Konnte Datei nicht öffnen."
+    IDS_STRING30            "Die zu verschlüsselnde Datei ist leer."
+    IDS_STRING31            "Die zu verschlüsselnde Datei konnte nicht gelesen werden."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING32            "Die verschlüsselte Datei konnte nicht zum Schreiben geöffnet werden."
+    IDS_STRING33            "Die zu enschlüsselnde Datei ist leer."
+    IDS_STRING34            "Die zu entschlüsselnde Datei ist keine gültige Archivdatei."
+    IDS_STRING35            "Die zu entschlüsselnde Datei konnte nicht gelesen werden."
+    IDS_STRING36            "Die entschlüsselte Datei konnte nicht zum Schreiben geöffnet werden."
+    IDS_STRING37            "Eingabefehler: Der Verschlüsselungsgrad muß einen Wert von 0 (keine Verschlüsselung) bis 1000 (mittelschwer) haben."
+    IDS_STRING38            "Fehler beim entschlüsseln der Datei '%s'."
+    IDS_STRING39            "Ungültiges Passwort."
+    IDS_STRING40            "Die beiden eingegebenen Passwörter stimmen nicht überein. Bitte neu eingeben!"
+    IDS_STRING41            "Bitte wählen Sie aus der Liste eine oder mehrere Aufnahme(n) zum WAV-Export!"
+    IDS_STRING42            "Konnte nicht von der exportierten Datei lesen - etwas ging schief!"
+    IDS_STRING43            "Unbekannter CODEC der WAV-Datei. Die Aufnahme wurde offensichtlich mit einem anderen System erzeugt, auf dem der CODEC installiert ist. Abhilfe: Installieren sie den CODEC auch auf diesem System."
+    IDS_STRING44            "Die Aufnahme wurde erfolgreich nach WAV-Format exportiert.\r\n\r\nHinweis: Die exportierte WAV-Datei verwendet den CODEC '%s'. Wenn Sie beabsichtigen, die WAV-Datei zu versenden, sollte dieser CODEC auch auf dem Ziel-System installiert sein."
+    IDS_STRING45            "Die Aufnahme(n) wurde(n) erfolgreich nach WAV-Format exportiert."
+    IDS_STRING46            "Exportierte Datei konnte nicht als gültiges WAV-Format identifiziert werden."
+    IDS_STRING47            "Ungültiger Lizenzschlüssel."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING48            "Lizenz Nr.:       %s\r\nLizenznehmer: %s"
+    IDS_STRING49            "Der angegebene Pfadname ist ungültig. Bitte geben Sie einen gültigen Pfadnamen ein oder richten Sie gegebenenfalls ein entsprechendes Verzeichnis ein."
+    IDS_STRING50            "Das gewählte Archivverzeichnis ist leer. Diese Meldung erscheint so lange, bis eine Aufzeichnung in diesem Verzeichnis abgelegt wurde."
+    IDS_STRING51            "Bitte Dateiordner für Telefonaufzeichnungen wählen. Stellen Sie sicher, dass Sie dort Schreibrechte besitzen."
+    IDS_STRING52            "Bitte Stamm-Dateiordner für die verschiedenen Archiv-Unterverzeichnisse wählen."
+    IDS_STRING53            "Aufnahme wird verschlüsselt..."
+    IDS_STRING54            "Aufnahme wird entschlüsselt"
+    IDS_STRING55            "Bitte wählen Sie erst einen Listeneintrag."
+    IDS_STRING56            "Die Änderung des Listeneintrags konnte nicht in das Archivverzeichnis geschrieben werden!"
+    IDS_STRING57            "Die Datei '%s' konnte nicht geöffnet werden!"
+    IDS_STRING58            "Ungültiges Dateiformat."
+    IDS_STRING59            "Die Datei wurde mit einer neueren Version des Programms gespeichert und kann mit dieser veralteten Version nicht mehr gelesen werden!"
+    IDS_STRING60            "Die Tabellen-Spaltenzahl der Datei differiert mit der des Programms."
+    IDS_STRING61            "Aufnahme(n) wirklich löschen?"
+    IDS_STRING62            "Konnte nur %d Listeneinträgen löschen, %d konnten nicht gelöscht werden."
+    IDS_STRING63            "<Standard>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING64            "Die Aufnahme ist bereits in diesem Ordner."
+    IDS_STRING65            "Wenn Sie fortfahren, wird der Ordner nur in der Liste gelöst. Um die Daten auch physikalisch von der Festplatte zu löschen, benutzen Sie bitte den Explorer. Soll der Ordner '%s' wirklich gelöscht werden?"
+    IDS_STRING66            "Bitte zuerst einen Ordner auswählen."
+    IDS_STRING67            "Der Standard-Ordner kann nicht gelöscht werden."
+    IDS_STRING68            "Aufnahme %s konnte wegen eines Dateisystemfehlers nicht kopiert werden. Überprüfen Sie, ob der Quell- und Zielordner existiert bzw ob die entspr. *.trs-Datei vorhanden ist."
+    IDS_STRING69            "Die Eigenschaften des Standard-Ordners können nicht geändert werden."
+    IDS_STRING70            "Die Ordner-Eigenschaften konnten nicht aktualisiert werden."
+    IDS_STRING71            "Der Ordner kann nicht akzeptiert werden. Bitte einen Ordnernamen benutzen, der noch nicht vergeben wurde."
+    IDS_STRING72            "Information"
+    IDS_STRING73            "Aufnahme Abbrechen"
+    IDS_STRING74            "Deaktivieren"
+    IDS_STRING75            "Gesprächspartner"
+    IDS_STRING76            "Notizen"
+    IDS_STRING77            "Aufnahmepegel"
+    IDS_STRING78            "Aussteuerung"
+    IDS_STRING79            "Speichern mit CODEC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING80            "Verfügbare Formate"
+    IDS_STRING81            "Samplingrate"
+    IDS_STRING82            "Gerät"
+    IDS_STRING83            "Anschluß"
+    IDS_STRING84            "Aufnahmestart"
+    IDS_STRING85            "durch Leitungspegel"
+    IDS_STRING86            "von Hand"
+    IDS_STRING87            "allgem. Einstellungen"
+    IDS_STRING88            "Standard-Verzeichnispfad für Aufnahmen"
+    IDS_STRING89            "Identifikation"
+    IDS_STRING90            "Paßwort"
+    IDS_STRING91            "Crypto-Level"
+    IDS_STRING92            "Parameter für Aufnahme-Automatik:"
+    IDS_STRING93            "Empfindlichkeit (in % d. Maximalpegels)"
+    IDS_STRING94            "Signaldauer für Start (Sek.)"
+    IDS_STRING95            "Dauer d. Signalausfalls für Stop (Sek.)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING96            "Vergrößern nach x Sek. automatischer Aufnahme"
+    IDS_STRING97            "Aufnahme"
+    IDS_STRING98            "Lizenzschlüssel beschädigt - bitte erneut eingeben."
+    IDS_STRING99            "Lizenzschlüssel eingeben"
+    IDS_STRING100           "Lizenz-Schlüssel:"
+    IDS_STRING101           "Bitte geben sie den 28-stelligen Lizenz-Schlüssel von der Installations-CDROM ein."
+    IDS_STRING102           "Abbrechen"
+    IDS_STRING103           "DURCH DAS LIZENSIEREN DER SOFTWARE ERKLÄREN SIE SICH DAMIT EINVERSTANDEN, DASS EINE GELD-RÜCKERSTATTUNG NICHT LÄNGER MÖGLICH IST."
+    IDS_STRING104           "Haupt-Archivverzeichnispfad"
+    IDS_STRING105           "Löschen von Aufnahmen unter (Sek.)"
+    IDS_STRING106           "Für technischen support oder um auf die Pro-Version zu upgraden kontakten Sie %s."
+    IDS_STRING107           "xxx"
+    IDS_STRING108           "ACHTUNG: Der 65-Tage-Probezeitraum ist vorbei. Wenn Sie unser Produkt überzeugt hat, müssen Sie die Lizenzvereinbarung bestätigen lassen, um die Software über den Probezeitraum hinaus zu benutzen. Wollen Sie das jetzt tun?"
+    IDS_STRING109           "Vielen Dank, dass Sie sich entschieden haben, diese Produkt auszuprobieren. Sie werden 65 Tage lang die volle Funktionalität zur Verfügung haben. Danach können Sie sich entscheiden, ob Sie eine zeitlich unbegrenzte Lizenz zur Nutzung beziehen wollen. "
+    IDS_STRING110           "Haben sie ein korrekt konfiguriertes MAPI-Mailsystem installiert (z.B. Microsoft Outlook)?"
+    IDS_STRING111           "Bitte übermitteln Sie den Anforderungscode auf andere Weise."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING112           "x"
+    IDS_STRING113           "Es ist ein kleines Problem mit der E-Mail Software auf dieser Arbeitsstation aufgetaucht. Bitte probieren Sie, ob MAPI-Mailing besser funktioniert."
+    IDS_STRING114           "SCR Lizenzbestätigung"
+    IDS_STRING115           "Alternativ können Sie uns zu unseren Büro-Öffnungszeiten (Mo.-Fr., 9:00-17:30) anrufen, um einen Lizenz-Bestätigungscode zu bekommen. Wählen Sie: "
+    IDS_STRING116           "Dis Systemconfiguration hat sich geändert. Sie benötigen eine neue Lizenzbestätigung."
+    IDS_STRING117           "Der Bestätigungscode passt nicht zum Anforderungscode."
+    IDS_STRING118           "Es konnten einige Systeminformationen nicht gespeichert werden. Bitte versuchen Sie es damit sich als Administrator anzumelden."
+    IDS_STRING119           "Es konnten einige benötige Systeminformationen nicht angefordert werden."
+    IDS_STRING120           "Mailversand abgebrochen."
+    IDS_STRING121           "ACHTUNG: Der 65-Tage-Probezeitraum wird in %d Tagen abgelaufen sein. Wenn Sie unser Produkt überzeugt hat, müssen Sie die Lizenzvereinbarung bestätigen lassen, um die Software über den Probezeitraum hinaus zu benutzen. Wollen Sie das jetzt tun?"
+    IDS_STRING122           "Suchfilter"
+    IDS_STRING123           "Suche nach "
+    IDS_STRING124           "Identifikation"
+    IDS_STRING125           "Gesprächspartner"
+    IDS_STRING126           "Notizen"
+    IDS_STRING127           "tt.mm.jjjj"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING128           "hh:mm"
+    IDS_STRING129           "Datum nach"
+    IDS_STRING130           "Datum vor"
+    IDS_STRING131           "Minimale Dauer"
+    IDS_STRING132           "Maximale Dauer"
+    IDS_STRING133           "Suchfilter schließen"
+    IDS_STRING134           "Automatisch löschen, wenn älter als"
+    IDS_STRING135           "Tage"
+    IDS_STRING136           "Lizenz bestätigen "
+    IDS_STRING137           "Name"
+    IDS_STRING138           "Features"
+    IDS_STRING139           "nicht aktiviert"
+    IDS_STRING140           "aktiviert"
+    IDS_STRING141           "Wichtiger Hinweis: Um die Software in einer Mehrbenutzer-Umgebung zu verwenden, sollten Sie mit Administrator-Privilegien eingeloggt sein."
+    IDS_STRING142           "Suche nach Intelligent Recording Interface"
+    IDS_STRING143           "Checke Steuerungssignale..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING144           "Audiogerät konnte nicht geöffnet werden"
+    IDS_STRING145           "Abbrechen (%d Sekunden)"
+    IDS_STRING146           "Bisher kein Ergebnis...."
+    IDS_STRING147           "Kein Intelligent Recording Interface gefunden"
+    IDS_STRING148           "Inaktiv-Signal vom linken Kanal"
+    IDS_STRING149           "Aktiv-Signal vom linken Kanal"
+    IDS_STRING150           "Inaktiv-Signal vom rechten Kanal"
+    IDS_STRING151           "Aktiv-Signal vom rechten Kanal"
+    IDS_STRING152           "Audiogerät auswählen"
+    IDS_STRING153           "Auf diesem System konnte kein Audiogerät gefunden werden."
+    IDS_STRING154           "Statusinformation"
+    IDS_STRING155           ", vergangene Zeit: %02d:%02d:%02d"
+    IDS_STRING156           "Autom. Aufnahme"
+    IDS_STRING157           "Lösche Listeneinträge"
+    IDS_STRING158           "Autostart für alle Benutzer"
+    IDS_STRING159           "x"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING160           "Sie benötigen Administratorenrechte, um diese Einstellung zu ändern."
+    IDS_STRING161           "Hinweis: Wenn Sie einen anderen CODEC als Microsoft PCM gewählt haben, müssen Sie dessen Samplingrate and die der Soudkarte anpassen. Möchten Sie jetzt zum CODECs-Reiter gehen, um das zu tun?"
+    IDS_STRING162           "Konnte kein Intelligent Recording Interface am momentan ausgewählten Anschluss erkennen. Sollen alle Eingangs-Leitungen des ausgewählten Audiogeräts jetzt durchsucht werden?"
+    IDS_STRING163           "Konnte kein Intelligent Recording Interface am momentan ausgewählten Anschluss erkennen. Wenn Sie trotzdem eines haben, stellen Sie bitte sicher, dass es korrekt am Line in Eingang der Soundkarte und an einer Stromversorgung angeschlossen ist und checken Sie ob die DIP-Schalter hinter der Schutzverkleidung auf der Untzeseite des Interface richtig gesetzt sind. Danach gehen Sie bitte auf den Hardware-Bildschirm des Software Call Recorders und wählen 'Aufnahme über Leitungspegel' und IRI 'aktivieren'.\n(Dieser Hinweis wird nur ein einziges Mal angezeigt.)"
+    IDS_STRING164           "Warnung: Das Intelligent Recording Interface kann nicht mehr erkannt werden. Vielleicht wurde es vom System getrennt. Wenn dies beabsichtigt war, gehen Sie zum Hardware-Bildschirm und drücken Sie auf 'nicht aktiv'."
+    IDS_STRING165           "Automatic Level Control"
+    IDS_STRING166           "Master-Paßwort"
+    IDS_STRING167           "Die alte Indexdatei wird nun in ein neues Format konvertiert, das besser für Mehrbenutzer-Umgebungen geeignet ist. Wenn Sie andere Computer im Netzwerk haben, die das gleiche Verzeichnis für Aufzeichnungen benutzen, wird dringend empfohlen, dass Sie alle derzeit laufenden Software Call Recorder deaktivieren und diese nach der Konvertierung allesamt auf die neueste Version updaten."
+    IDS_STRING168           "Hatte Probleme beim Ändern des Namens der aktuellen Indexdatei. Bitte stellen Sie sicher, dass Sie ausreichende Privilegien für diese Operation haben und dass im Moment niemand anderes auf die Datei zugreift."
+    IDS_STRING169           "Konvertierung war nicht (vollständig) erfolgreich."
+    IDS_STRING170           "Diese Funktion kann nicht genutzt werden, da die Indexdatei in einem veralteten Format vorliegt."
+    IDS_STRING171           "Problem wärend der Konvertierung der Index-Datei. Mit OK überspringen Sie den fehlerhaften Eintrag. (Hinweis: Wenn diese Meldung zu häufig erscheint, könnre es eine gute Idee sein abzubrechen und den Inhalt des Standard-Aufnahmeverzeichnisses in ein anderes Verzeichnis zu verschieben, so dass das Programm eine ganz neue Indexdatei anlegen kann. Es ist Ihnen jederzeit möglich, auf Ihre alten Aufzeichnungen zuzugreifen (nur-lese Zugriff). Dazu müssen Sie in der Ordner-Liste einen entsprechenden Ordner hinzufügen.)"
+    IDS_STRING172           "Suchen"
+    IDS_STRING173           "Mit SQL verbinden"
+    IDS_STRING174           "Diese Version der Software ist zu veraltet, um verlässlich auf das gewünschte Archiv zugreifen zu können. Bitte installieren Sie eine neuere Version. Das Arbeiten mit dem Archivordner kann sonst zu Problemen führen!"
+    IDS_STRING175           "Die Index-Datei wird nun aktualisiert. Bitte dekativieren Sie sämtliche anderen Software Call Recorder, die in diesem Archivverzeichnis operieren."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING176           "Soll versucht werden die Index-Datei zu reparieren? (Hinweis: Wenn mehrere Computer im Netzwerk gemeinsam auf das Archiv-Verzeichnis zugreifen, ist es nötig diese Software Call Recorder vorher zu deaktivieren.)"
+    IDS_STRING177           "Die Reparatur der Index-Datei war erfolgreicht. Sollte das Problem öfter auftauchen wird empfohlen einen Datenbank-Server zu verwenden."
+    IDS_STRING178           "Die Index-Datei in diesem Ordner ist veraltet und bedarf der Konvertierung bevor Änderungen an ihr vorgenommen werden können. Wollen Sie jetzt konvertieren?"
+    IDS_STRING179           "Setze Pfad für temporäre Dateien"
+    IDS_STRING180           "In order to use the Nero archiving function you need to have a licensed version of the Nero Burning Rom software (min. version 6.3.1.4 recommended) installed on your system. Note that you have to use this interface 'as is' because we cannot guarantee that it will work with all possible combinations of Nero versions and CD burners. Use at your own risk!"
+    IDS_STRING181           "Mit dieser Option sind Sie in der Lage mit nur wenigen Schritten eine Verbindung mit einem SQL-Datenbankserver aufzubauen. (MS-SQL oder mySQL), die benotigten Tabellen darin zu erzeugen und ein Netzwerkverzeichnis anzulegen, in dem die Aufnahmen gespeichert werden. Das hat den Vorteil höherer Sicherheit und besserer Performance. Zuerst wird ein leeres Netzwerkverzeichnis abgefragt. Mit dem zweiten Schritt wählen Sie die ODBC-Datenquelle aus, die Sie vorher in der Systemsteuerung angelegt haben sollten."
+    IDS_STRING182           "Mit Sense verbinden"
+    IDS_STRING183           "Konnte keine Verbindung zum Sense-Server herstellen, der beim Standard-Archivpfad angegeben wurde."
+    IDS_STRING184           "Aufnahme mit Sense server funktioniert nur mit MS-PCM oder G.711 codec bei 8000 Hz Sampling-Frequenz. Bitte auf Hardware- und Codec-Reiter überprüfen!"
+    IDS_STRING185           "Die Datenbankserver-Verbindung scheint erfolgreich etabliert worden zu sein."
+    IDS_STRING186           "Archiv Ordner ist leer"
+    IDS_STRING187           "ID"
+    IDS_STRING188           "Datum/Zeit"
+    IDS_STRING189           "Dauer"
+    IDS_STRING190           "Ordner"
+    IDS_STRING191           "Wiedergabe"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING192           "Odner ändern"
+    IDS_STRING193           "Die Aufnahmefunktion wurde gesperrt: Kein Zugriff auf den Lizensierungs-Server des Software Call Recorders. Möglicherweise gibt es Netzwerkprobleme oder der Server wurde heruntergefahren. Detaillierte Fehlerbeschreibung: "
+    IDS_STRING194           "Die Aufnahmefunktion wurde wegen Netzwerklizenz-Einschränkungen gesperrt. Detaillierte Lizensierungs-Server Nachricht: "
+    IDS_STRING195           "Server Lizenz Nr.:     %s\r\nLizensierungsserver: %s\r\nNetzwerklizenz Nr.:   %s"
+    IDS_STRING196           "Anfrage läuft ..."
+    IDS_STRING197           "keine zugewiesen - Aufnahmefunktion gesperrt"
+    IDS_STRING198           "Minimieren nach automatischer Aufnahme"
+    IDS_STRING199           "Signal vom Eingangsgerät unterdrücken"
+    IDS_STRING200           "Sollten Sie das Signal vom Telefon oder einen Piepton von den Lautsprechern hören (letzteres bei Benutzung des Intelligent Recorfing Interface) folgen Sie bitte diesen Anweisungen, um die Störgeräusche auszublenden."
+    IDS_STRING201           "1. Öffnen Sie die Systemsteuerung."
+    IDS_STRING202           "2. Öffnen der Sound-Einstellungen"
+    IDS_STRING203           "3. Wählen Sie das Standard-Ausgabegerät aus."
+    IDS_STRING204           "4. Auf dem Pegel-Reiter können Sie nun den entspr. Eingangskanal stummschalten."
+    IDS_STRING205           "Eingangssignale auf Ausgabegerät stummschalten"
+    IDS_STRING206           "OK, danke für die Hilfe"
+    IDS_STRING207           "Warnung: Die Aufnahme wird nicht gespeichert, wenn Sie fortfahren, und die automatische Aufnahmefunktion wird deaktiviert. Aufnahme wirklich abbrechen?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING208           "Die laufende Aufnahme wird gelöscht. Wollen Sie wirklich die Aufnahme abbrechen?"
+    IDS_STRING209           "Die Lizenz-Registrierung war erfolgreich und die Software ist nun aktiviert."
+    IDS_STRING210           "Die Taskleiste existiert oder reagiert nicht."
+    IDS_STRING211           "Stumm- schalten"
+    IDS_STRING212           "Mikro öffnen"
+    IDS_STRING213           "Sense Extension"
+    IDS_STRING214           "Warte auf TAPI-Events"
+    IDS_STRING215           "Fehler beim Öffnen der Datei '%s'"
+    IDS_STRING216           "Fehler beim Umbenennen von Datei '%s' nach '%s'"
+    IDS_STRING217           "Computerweite Einstellungen wurden verändert, konnten jedoch nicht abgespeichert werden. Bitte starten Sie die Software noch einmal 'als Administrator' und ändern die betreffenden Einstellungen erneut."
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,390 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Niederländisch (Niederlande) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "mailto:mielket@gmx.de"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "TELAR Language DLL (NL)"
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "TelArLangNL"
+            VALUE "LegalCopyright", "Copyright © 2022 Thomas Mielke Softwareentwicklung"
+            VALUE "OriginalFilename", "Telarlng.dll"
+            VALUE "ProductName", "SCR 957"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1             "NL"
+    IDS_STRING2             "N.b: Dit is een demo versie. Voor een volledig werkende versie neem contact op met %s"
+    IDS_STRING3             "Let op: De 65 dagen evaluatie periode is verstreken. Indien u overtuigd bent van de mogelijkheden van deze software kunt u contact opnemen met %s"
+    IDS_STRING4             "Handmatig opnemen"
+    IDS_STRING5             "Start automatisch opnemen"
+    IDS_STRING6             "Stop opnemen"
+    IDS_STRING7             "Stop automatisch opnemen "
+    IDS_STRING8             "Vorige opname"
+    IDS_STRING9             "Let op: Het oude bestand '%s' kon niet worden aangepast voor de nieuwe versie van het programma. De gegevens voor deze opname werden niet bewaard. De opname zelf is opgeslagen onder de naam '%s'."
+    IDS_STRING10            "Opnemen: De locatie voor de archivering moet worden gedefinieerd onder 'Opties'!"
+    IDS_STRING11            "Opnemen: Een audio invoer apparaat moet worden gedefinieerd onder 'Opties'!"
+    IDS_STRING12            "Opnemen: Een CODEC en subformaat moet worden gedefinieerd onder 'CODECs'!"
+    IDS_STRING13            "*%04d/%02d/%02d"
+    IDS_STRING14            "De opname kon niet worden gestart."
+    IDS_STRING15            "automatische opname stopt in %d seconden"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING16            "Signaal-detectie modus actief"
+    IDS_STRING17            "automatische opname in werking"
+    IDS_STRING18            "Druk op de middelste muisknop voor handmatige opname"
+    IDS_STRING19            "Om de handmatige opname te stoppen druk op de middelste muisknop"
+    IDS_STRING20            "Let op: Hiermee wordt de ReTell Call Recorder software gedeactiveerd!"
+    IDS_STRING21            "Terugluisteren tijdens een opname is niet mogelijk"
+    IDS_STRING22            "<MS-PCM zonder CODEC>"
+    IDS_STRING23            "Invoer fout: geef voor signaalgevoeligheid een waarde in tussen 1 en 100!"
+    IDS_STRING24            "Invoer fout: geef voor de duur van de aanwezigheid van het signaal t.b.v. het starten van opnemen een waarde in tussen 1 en 100!"
+    IDS_STRING25            "Invoer fout: geef voor de duur van de afwezigheid van het signaal om te stoppen met opnemen een waarde in tussen 1 en 100!"
+    IDS_STRING26            "dubbelklikken om de ReTell Call Recorder software te openen"
+    IDS_STRING27            "Het telefoongesprek kon niet worden encrypt. Het is opgeslagen als wav bestand onder '%s'."
+    IDS_STRING28            "Het tijdelijke en niet-encrypte bestand '%s' kon niet worden verwijderd. Verwijder het bestand handmatig en controleer de netwerk autorisaties m.b.t. het verwijderen van bestanden in deze directory."
+    IDS_STRING29            "Bestand open fout."
+    IDS_STRING30            "Bestand is leeg."
+    IDS_STRING31            "Het bestand, wat encrypt moet worden, kon niet worden gelezen."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING32            "Het encrypte bestand kon niet worden geopend om naar toe te schrijven."
+    IDS_STRING33            "Het bestand wat decrypt moest worden, is een leeg bestand."
+    IDS_STRING34            "Het bestand wat decrypt moest worden, is geen geldig archief bestand."
+    IDS_STRING35            "Het bestand wat decrypt moest worden, kon niet worden gelezen."
+    IDS_STRING36            "Het decrypte bestand kon niet worden geopend om naar toe te schrijven."
+    IDS_STRING37            "Invoer fout: de waarde voor het encryptie niveau moet liggen tussen 0 (uit) en 1000 (gemiddeld)."
+    IDS_STRING38            "Fout tijdens decrypten van bestand '%s'."
+    IDS_STRING39            "Onjuist wachtwoord."
+    IDS_STRING40            "De twee ingegeven wachtwoorden zijn niet aan elkaar gelijk. Probeer het nogmaals!"
+    IDS_STRING41            "Selecteer de opname uit de directory die u naar wav wilt exporteren"
+    IDS_STRING42            "Kan het geëxporteerde bestand niet lezen!"
+    IDS_STRING43            "Onbekende CODEC in dit WAV bestand. De opname is op een ander werkstation gemaakt. Installeer de CODEC van het andere werkstation ook op deze PC."
+    IDS_STRING44            "De opname is succesvol geëxporteerd naar WAV formaat.\r\n\r\n N.b.: Het geëxporteerde WAV bestand gebruikt de CODEC '%s'. Indien u het WAV bestand naar een ander werkstation zendt, moet op dat werkstation dezelfde CODEC gednstalleerd zijn om de opname te kunnen beluisteren."
+    IDS_STRING45            "De opname is succesvol geëxporteerd naar WAV formaat. "
+    IDS_STRING46            "Het geëxporteerde wav bestand is beschadigd."
+    IDS_STRING47            "Ongeldige licentie code."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING48            "Licentie nr.: %s\r\n Licentiehouder:      %s"
+    IDS_STRING49            "Ongeldige bestemming. Geef een geldig c.q. bestaande directory op voor archivering of creëer een nieuwe."
+    IDS_STRING50            "De gekozen archief directory is leeg. Deze melding wordt herhaald totdat de eerste opname hier is opgeslagen."
+    IDS_STRING51            "Selecteer de directory waarin de opnamen van telefoongesprekken moeten worden opgeslagen. Overtuig u ervan dat er schrijfrechten voor deze directory zijn!"
+    IDS_STRING52            "Selecteer de hoofddirectory waaronder alle subdirectories worden aangemaakt voor archivering."
+    IDS_STRING53            "De opname wordt encrypt"
+    IDS_STRING54            "De opname wordt decrypt"
+    IDS_STRING55            "Selecteer a.u.b. eerst de opname uit de directory."
+    IDS_STRING56            "De wijzigingen die aan de opname zijn toegekend konden niet worden opgeslagen in het index bestand."
+    IDS_STRING57            "Het bestand '%s' kon niet worden geopend"
+    IDS_STRING58            "Onbekend dataformaat"
+    IDS_STRING59            "Het bestand is opgeslagen met een recentere versie van het programma en kan niet worden gelezen met deze oudere versie."
+    IDS_STRING60            "Het aantal kolommen van de tabel is niet gelijk aan die van het programma"
+    IDS_STRING61            "Wilt u de opname daadwerkelijk verwijderen?"
+    IDS_STRING62            "Kan de selectie niet verwijderen (%d ok, %d fout)."
+    IDS_STRING63            "<Standaard>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING64            "De opname komt reeds voor in deze directory."
+    IDS_STRING65            "N.b.: Indien u verder gaat wordt de map alleen verwijderd uit deze directory. Om de gegevens van de harde schijf te verwijderen zult u Microsoft Verkenner moeten gebruiken. Wilt u de map '%s' daadwerkelijk verwijderen uit de directory? "
+    IDS_STRING66            "Selecteer a.u.b. eerst een directory."
+    IDS_STRING67            "De standaard directory kan niet worden verwijderd."
+    IDS_STRING68            "De opname %s kan niet worden gekopieerd vanwege een foutmelding van het bestandsysteem op de PC. Controleer a.u.b. de juistheid van de directory waarvan u wilt kopiëren en de bestemmings-directory."
+    IDS_STRING69            "De eigenschappen van de standaard directory kunnen niet gewijzigd worden."
+    IDS_STRING70            "De directory eigenschappen kunnen niet gewijzigd worden op de harde schijf."
+    IDS_STRING71            "Directory niet toegestaan. Kies een directory naam die nog niet wordt gebruikt."
+    IDS_STRING72            "Informatie"
+    IDS_STRING73            "Annuleer opnemen"
+    IDS_STRING74            "Deactiveren"
+    IDS_STRING75            "Referentie"
+    IDS_STRING76            "Notitie"
+    IDS_STRING77            "Opname niveau"
+    IDS_STRING78            "Niveau instelling"
+    IDS_STRING79            "Opnemen met CODEC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING80            "Beschikbare instellingen"
+    IDS_STRING81            "Meetfrequentie"
+    IDS_STRING82            "Invoerapparaat"
+    IDS_STRING83            "Lijn"
+    IDS_STRING84            "Start opname"
+    IDS_STRING85            "op lijnsignaal"
+    IDS_STRING86            "handmatig"
+    IDS_STRING87            "Opties"
+    IDS_STRING88            "Standaard directory voor opnamen"
+    IDS_STRING89            "ID Werkstation"
+    IDS_STRING90            "Wachtwoord"
+    IDS_STRING91            "Encryptie niveau"
+    IDS_STRING92            "Instellingen voor automatisch opnemen:"
+    IDS_STRING93            "Gevoeligheid (in % van max. lijnniveau)"
+    IDS_STRING94            "Signaalduur voordat gestart wordt (sec.)"
+    IDS_STRING95            "Geen signaal voordat gestopt wordt (sec.)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING96            "Pop-up scherm bij lijnsignaal (sec.)"
+    IDS_STRING97            "Opnemen"
+    IDS_STRING98            "Licentie code onjuist - voer opnieuw in a.u.b."
+    IDS_STRING99            "Voer licentie code in"
+    IDS_STRING100           "Licentie code:"
+    IDS_STRING101           "Voer a.u.b. de licentie code in."
+    IDS_STRING102           "Annuleer"
+    IDS_STRING103           "BY LICENSING THIS SOFTWARE YOU ARE CONFIRMING THAT A REFUND WILL NO LONGER BE POSSIBLE."
+    IDS_STRING104           "Hoofddirectory archivering"
+    IDS_STRING105           "Negeer opnamen korter dan (seconden)"
+    IDS_STRING106           "Voor support of het upgraden naar de PRO versie, neem contact op met %s"
+    IDS_STRING107           "xxx"
+    IDS_STRING108           "N.b.: De 65-dagen testperiode is verstreken. Indien u tevreden bent over de mogelijkheden van de software en deze wilt blijven gebruiken, zult u de licentie moeten activeren. Wilt u dit nu doen?"
+    IDS_STRING109           "Fijn dat u dit product wilt uitproberen. U kunt gedurende een periode van 65 dagen met de software werken. Daarna is dat alleen mogelijk na het activeren van de licentiecode"
+    IDS_STRING110           "Heeft u een MAPI mail systeem gednstalleerd (zoals Microsoft Outlook)?"
+    IDS_STRING111           "Sorry, u zult de licentie aanvraagcode dan op een andere wijze moeten verzenden."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING112           "x"
+    IDS_STRING113           "Er was een probleem met het e-mail programma op deze PC. Probeer a.u.b. of MAPI verzending beter werkt."
+    IDS_STRING114           "SCR licentie bevestiging"
+    IDS_STRING115           "Optioneel kunt u er voor kiezen ons te bellen (Maandag-Vrijdag, 8:30 - 17:00 uur) om een licentie bevestigingscode te ontvangen. Belt u dan: 072-5345004"
+    IDS_STRING116           "Het systeem is gewijzigd. De licentiebevestigingscode moet opnieuw worden aangevraagd"
+    IDS_STRING117           "De licentiebevestigingscode komt niet overeen met de licentie aanvraagcode."
+    IDS_STRING118           "Het is niet mogelijk om de instellingen op te slaan. Mogelijk veroorzaakt door autorisatiebeperkingen. Probeer het nog eens als Administrator in te loggen."
+    IDS_STRING119           "Het is niet mogelijk om de benodigde systeeminformatie op te vragen"
+    IDS_STRING120           "E-mail geannuleerd."
+    IDS_STRING121           "N.b.: De 65-dagen testperiode verstrijkt over %d dagen. Indien u tevreden bent over de mogelijkheden van de software en deze wilt blijven gebruiken, zult u de licentie moeten activeren. Wilt u dit nu doen?"
+    IDS_STRING122           "Zoek filter"
+    IDS_STRING123           "Zoeken naar"
+    IDS_STRING124           "Identificatie"
+    IDS_STRING125           "Referentie"
+    IDS_STRING126           "Notitie"
+    IDS_STRING127           "jjjj/mm/dd"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING128           "uu:mm"
+    IDS_STRING129           "Datum na"
+    IDS_STRING130           "Datum voor"
+    IDS_STRING131           "Minimale duur"
+    IDS_STRING132           "Maximale duur"
+    IDS_STRING133           "Sluit zoekscherm"
+    IDS_STRING134           "Opnamen automatisch verwijderen ouder dan:"
+    IDS_STRING135           "dagen"
+    IDS_STRING136           "Bevestig licentie "
+    IDS_STRING137           "Naam"
+    IDS_STRING138           "Functies"
+    IDS_STRING139           "niet actief"
+    IDS_STRING140           "actief"
+    IDS_STRING141           "Belangrijk: Om de software in 'multi-user' omgeving te kunnen gebruiken zult u moeten inloggen met 'Aministrator' autorisaties."
+    IDS_STRING142           "Zoeken naar de Intelligent Recording Interface..."
+    IDS_STRING143           "Controleren van de stuursignalen..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING144           "Het audio apparaat kan niet worden ge-opend"
+    IDS_STRING145           "Annuleer (%d seconden)"""
+    IDS_STRING146           "Nog geen resultaat..."
+    IDS_STRING147           "Er is geen Intelligent Recording Interface aangetroffen"
+    IDS_STRING148           "niet-actief signaal van het linker audio kanaal"
+    IDS_STRING149           "actief signaal van het linker audio kanaal"
+    IDS_STRING150           "niet-actief signaal van het rechter audio kanaal"
+    IDS_STRING151           "actief signaal van het rechter audio kanaal"
+    IDS_STRING152           "Selecteer audio apparaat"
+    IDS_STRING153           "Er is geen audio invoer apparaat aangetroffen op dit systeem"
+    IDS_STRING154           "Status informatie"
+    IDS_STRING155           ", verstreken tijd: %02d:%02d:%02d"
+    IDS_STRING156           "Automatische opname"
+    IDS_STRING157           "Verwijderen van invoer"
+    IDS_STRING158           "Automatisch opstarten voor alle gebruikers"
+    IDS_STRING159           "x"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING160           "Om deze wijziging door te kunnen voeren heeft u 'Administrator' rechten nodig"
+    IDS_STRING161           "N.b.: Indien u een CODEC gebruikt anders dan de Microsoft PCM, moet de meetfrequentie van de geluidskaart worden afgestemd op deze CODEC. Wilt u naar dit tabblad om dit in te stellen?"
+    IDS_STRING162           "Geen Intelligent Recording Interface gevonden op de huidig geselecteerde 'Lijn'. Zoeken op alle invoerlijnen van de geselecteerde geluidskaart?"
+    IDS_STRING163           "No Intelligent Recording Interface has been detected on your system. If you have one, make sure the IRI's mono socket is connected to the soundcard's line in socket and check power supply and if the dip switches on the bottom side behind the panel are set properly. After you have done this, go to the hardware tab, press 'via line level' and press IRI 'active'. (Note: This message will only appear once.)"
+    IDS_STRING164           "Warning: The Intelligent Recording Interface cannot be detected any more. Maybe it was disconnected. If this is intentional, go to the hardware tab and in the Intelligent Recording Interface section click on 'not active'. Otherwise reconnect the IRI and click OK."
+    IDS_STRING165           "Automatic Level Control"
+    IDS_STRING166           "Master password"
+    IDS_STRING167           "The old index file will now be converted to a format that better suits multi-user environments. If you have other computers in a network, accessing the same directory for recordings, it is strongly recommended that you now deactivate all currently running Software Call Recorders and update them all after the index file has been converted."
+    IDS_STRING168           "Had problems to rename the actual index file for conversion. Please assure that you have proper privileges for this operation and nobody else accesses the file now."
+    IDS_STRING169           "Conversion was not (completely) successful."
+    IDS_STRING170           "This funcion cannot be used due to old format index file."
+    IDS_STRING171           "Problem while converting the index file. Press OK to skip bad record entry. (Note: if this message comes up too often, you may want to abort and move the content of your default recording folder to another folder so the software can create the new index file from scratch. You will allways be able to access the old index file in read-only mode, if you create a folder in the folders list on the playback tab.)"
+    IDS_STRING172           "Zoeken"
+    IDS_STRING173           "Connect SQL"
+    IDS_STRING174           "Om de archivering te kunnen benaderen zult u een nieuwere versie van de software moeten installeren"
+    IDS_STRING175           "Het index bestand wordt nu vernieuwd. Deactiveer alle andere Call Recorder Software die van deze archiveringsmap gebruik maakt."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING176           "Moet het index bestand gerepareerd worden? (N.b.: Indien u meerdere PC's heeft in het netwerk die in dezelfde archiveringsmap de opnamen opslaan, moet u eerst al deze Call Recorder software deactiveren.)"
+    IDS_STRING177           "De reparatie van het index bestand is succesvol. N.b.: Indien het index bestand vaker beschadigd raakt, moet u wellicht het gebruik van een databaseserver overwegen om het index bestand te behouden."
+    IDS_STRING178           "Het indexbestand in deze map is van een verouderde versie en moet worden geconverteerd voordat het kan worden aangepast. Wilt u het nu aanpassen?"
+    IDS_STRING179           "Selecteer het pad voor de tijdelijke bestanden"
+    IDS_STRING180           "Om de Nero archiveringsfunctie te kunnen gebruiken, heeft u een geïnstalleerde licentie van de Nero Burning Rom software op uw PC nodig (minimaal versie 6.3.1.4 aanbevolen). Note that you have to use this interface 'as is' because we cannot guarantee that it will work with all possible combinations of Nero versions and CD burners. Use at your own risk!"
+    IDS_STRING181           "Met deze optie kunt u in een paar stappen met uw database van uw keuze verbinding maken (MS-SQL of mySQL), de benodigde tabellen maken en uw opnamen op een netwerkschijf opslaan. Het voordeel hiervan is een hogere beveiliging van uw data en hogere prestaties qua terugzoeksnelheid. Allereerst zult u hiervoor een beschikbare (lege) netwerkmap moeten kiezen waarin de opnamen en het indexbestand (wat aan uw databse wordt gekoppeld) worden opgeslagen. Als tweede stap selecteert u de ODBC data bron (DSN) die u desgewenst met systeembeheer van Windows kunt aanmaken."
+    IDS_STRING182           "Connect to Sense"
+    IDS_STRING183           "Couldn't connect to the Sense server specified as defaul location for recordings"
+    IDS_STRING184           "Recording to Sense server only works with MS-PCM or G.711 codec at 8000 Hz sampling frequency. Please check hardware and codec tabs!"
+    IDS_STRING185           "De verbinding met de Database server is succesvol tot stand gekomen."
+    IDS_STRING186           "De archiveringsmap is leeg"
+    IDS_STRING187           "ID"
+    IDS_STRING188           "Datum/Tijd"
+    IDS_STRING189           "Duur"
+    IDS_STRING190           "Directory"
+    IDS_STRING191           "Afspelen"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING192           "Verander map"
+    IDS_STRING193           "De opname is uitgeschakeld: Toegang tot de Software Call Recorders licensing server is op dit moment niet mogelijk. Dit kan worden veroorzaakt door netwerk connectieproblemen of inactieve server. Gedetaileerde probleem beschrijving: "
+    IDS_STRING194           "Opname is niet mogelijk i.v.m. ontoereikende netwerklicenties. Gedetaileerde license server bericht: "
+    IDS_STRING195           "Server Licentie nr.:    %s\r\nLicensing Server:        %s\r\nNetwork License No.: %s"
+    IDS_STRING196           "vraagt aan..."
+    IDS_STRING197           "niets toegewezen - opname uitgeschakeld"
+    IDS_STRING198           "Minimaliseer na automatische opname"
+    IDS_STRING199           "Mute signal from input device"
+    IDS_STRING200           "Should you hear the phone signal or a beep tone (in case of an Intelligent Recording Interface attached) from the speekers please follow these instructions to mute the input signal."
+    IDS_STRING201           "1. Open the Windows Control Panel"
+    IDS_STRING202           "2. Open the Sound settings"
+    IDS_STRING203           "3. Select and open your default output device"
+    IDS_STRING204           "4. On the levels tab, mute the input line from which the signal originates"
+    IDS_STRING205           "Mute Input Signal on Output Device"
+    IDS_STRING206           "OK, thanks for the advice"
+    IDS_STRING207           "Warning: The recording will not be stored if you proceed and auto-recording will be disabled. Really cancel recording?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING208           "This recording will be deleted  Did you really want to cancel recording?"
+    IDS_STRING209           "The license registration was succesful and the software is now activated."
+    IDS_STRING210           "The taskbar window doesn't exist or is unresponsive."
+    IDS_STRING211           "Mute Signal"
+    IDS_STRING212           "Open Signal"
+    IDS_STRING213           "Sense Extension"
+    IDS_STRING214           "Waiting for TAPI event"
+    IDS_STRING215           "Error opening file '%s'"
+    IDS_STRING216           "Error renaming file '%s' to '%s'"
+    IDS_STRING217           "Machine-wide settings have changed but couldn't be stored. Please restart the software 'as Administrator' and alter the settings again."
+END
+
+#endif    // Niederländisch (Niederlande) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

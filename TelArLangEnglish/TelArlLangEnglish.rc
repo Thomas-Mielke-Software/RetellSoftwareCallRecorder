@@ -1,0 +1,390 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (Vereinigtes Königreich) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "mailto:mielket@gmx.de"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "TELAR Language DLL (English)"
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "TelArLangEnglish"
+            VALUE "LegalCopyright", "Copyright © 2022 Thomas Mielke Softwareentwicklung"
+            VALUE "OriginalFilename", "Telarlng.dll"
+            VALUE "ProductName", "SCR 957"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1             "GB"
+    IDS_STRING2             "NOTE: This is a demo version. For a fully functional version contact %s"
+    IDS_STRING3             "NOTE: The 65-days evaluation period has expired. If you are convinced about the capabilities of this software, please contact %s"
+    IDS_STRING4             "Manual Recording"
+    IDS_STRING5             "Start Auto Recording"
+    IDS_STRING6             "Stop Recording"
+    IDS_STRING7             "Stop Auto Recording"
+    IDS_STRING8             "Prev. Recording"
+    IDS_STRING9             "NOTE: The old file '%s' couldn't be updated according to the new program version. The data for this recording was not saved. But the recording itself ist saved under the name '%s'."
+    IDS_STRING10            "Recording: A path for the archive has to be provided under 'Options'!"
+    IDS_STRING11            "Recording: An audio input device has to be provided under 'Options'!"
+    IDS_STRING12            "Recording: A CODEC + sub format has to be provided under 'CODECs'!"
+    IDS_STRING13            "*%04d/%02d/%02d"
+    IDS_STRING14            "Recording couldn't be started."
+    IDS_STRING15            "auto-termination in %d seconds"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING16            "Signal-detection mode active"
+    IDS_STRING17            "automatic recording in progress"
+    IDS_STRING18            "Double-click middle mouse button for manual recording"
+    IDS_STRING19            "To stop manual recording press middle mouse button"
+    IDS_STRING20            "NOTE: You are about to deactivate the Software Call Recorder!"
+    IDS_STRING21            "Playback not possible while recording in progress"
+    IDS_STRING22            "<MS-PCM without CODEC>"
+    IDS_STRING23            "Input error: For signal sensitivity a value between 1 and 100 has to be provided!"
+    IDS_STRING24            "Input error: For to-start signal duration a value between 1 and 100 has to be provided!"
+    IDS_STRING25            "Input error: For to-stop signal duration a value between 1 and 100 has to be provided!"
+    IDS_STRING26            "double-click to open the Software Call Recorder"
+    IDS_STRING27            "The phone call couldn't be encrypted. It has been saved as wav file under '%s'."
+    IDS_STRING28            "The temporary and unencrypted file '%s' couldn't be deleted. Please delete the file manually and check network privileges for deleting files in that directory."
+    IDS_STRING29            "File open error."
+    IDS_STRING30            "File is empty."
+    IDS_STRING31            "The file, which had to be encrypted, could not be read."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING32            "The encrypted file could not be opened for writing."
+    IDS_STRING33            "The file, which had to be decrypted, is an empty file."
+    IDS_STRING34            "The file, which had to be decrypted, is not a valid archive file."
+    IDS_STRING35            "The file, which had to be decrypted, could not be read."
+    IDS_STRING36            "The decrypted file could not be opened for writing."
+    IDS_STRING37            "Input error: The Value for 'encryption level' has to be in the range of 0 (none) to 1000 (medium)."
+    IDS_STRING38            "Error decrypting file '%s'."
+    IDS_STRING39            "Invalid password."
+    IDS_STRING40            "The two entered passwords do not match. Please try again!"
+    IDS_STRING41            "Please select one or more the item(s) from the list which you want to wav-export"
+    IDS_STRING42            "Could not read from exported file - something went wrong!"
+    IDS_STRING43            "Unknown CODEC of this WAV file. The recording was obviously done using an other workstation. Please install the CODEC on this system too."
+    IDS_STRING44            "Recording has been successfully exported to WAV format.\r\n\r\nNote: The exported WAV file uses the CODEC '%s'. If you intend to send the WAV file to another workstation you should ensure you have the CODEC installed on the other system too."
+    IDS_STRING45            "Recording(s) successfully exported to WAV format."
+    IDS_STRING46            "Exported wav file is corrupted."
+    IDS_STRING47            "Invalid license key."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING48            "License No.: %s\r\nLicensee:      %s"
+    IDS_STRING49            "Invalid path. Please enter a valid archive file path or create a new directory."
+    IDS_STRING50            "The choosen archive directory is empty. This message remains until the first recording is stored there."
+    IDS_STRING51            "Select folder to store telephone recordings in. Make sure to have write privileges for it."
+    IDS_STRING52            "Please select the root folder in which you will create all your archive subfolders."
+    IDS_STRING53            "Recording is being encrypted"
+    IDS_STRING54            "Recording is being decrypted"
+    IDS_STRING55            "Please select a list item first."
+    IDS_STRING56            "The changes made to the list item couldn't be saved to the archive index file."
+    IDS_STRING57            "The file '%s' could not be opened"
+    IDS_STRING58            "Unknown data format"
+    IDS_STRING59            "The file was saved using a newer version of the software and cannot be loaded with this outdated version."
+    IDS_STRING60            "The tables number of columns is different to the one of the program"
+    IDS_STRING61            "Really delete recording(s)?"
+    IDS_STRING62            "Deleted only %d entries, %d failed."
+    IDS_STRING63            "<Default>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING64            "The recording is already in this folder."
+    IDS_STRING65            "Note: If you continue, the folder will only be deleted from the folders list. To erase the data on the mass storage, you have to use Windows Explorer. Really delete folder '%s' from the list?"
+    IDS_STRING66            "Please select a folder first."
+    IDS_STRING67            "The default folder cannot be deleted."
+    IDS_STRING68            "Recording %s couldn't be copied due to filesystem error. Please check source and destination folders."
+    IDS_STRING69            "The properties of the default folder cannot be changed."
+    IDS_STRING70            "The folder properties couldn't be changed on disk."
+    IDS_STRING71            "Folder rejected. Choose a folder name that is not already used."
+    IDS_STRING72            "Information"
+    IDS_STRING73            "Cancel Recording"
+    IDS_STRING74            "Deactivate"
+    IDS_STRING75            "Reference"
+    IDS_STRING76            "Note"
+    IDS_STRING77            "Recording level"
+    IDS_STRING78            "Level control"
+    IDS_STRING79            "Save with CODEC"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING80            "Available formats"
+    IDS_STRING81            "Sampling rate"
+    IDS_STRING82            "Device"
+    IDS_STRING83            "Input line"
+    IDS_STRING84            "Start recording"
+    IDS_STRING85            "via line level"
+    IDS_STRING86            "manually"
+    IDS_STRING87            "Options"
+    IDS_STRING88            "Default folder for recordings"
+    IDS_STRING89            "Identification"
+    IDS_STRING90            "Password"
+    IDS_STRING91            "Encryption level"
+    IDS_STRING92            "Auto-recording parameters:"
+    IDS_STRING93            "Sensitivity (in % of max. line level)"
+    IDS_STRING94            "Signal duration to start (seconds)"
+    IDS_STRING95            "Dur. of signal absence to stop (seconds)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING96            "Maximize after x seconds of automatic recording"
+    IDS_STRING97            "Record"
+    IDS_STRING98            "License key corrupted - please re-enter."
+    IDS_STRING99            "Enter license key"
+    IDS_STRING100           "License key:"
+    IDS_STRING101           "Please enter the license key."
+    IDS_STRING102           "Cancel"
+    IDS_STRING103           "BY LICENSING THIS SOFTWARE YOU ARE CONFIRMING THAT A REFUND WILL NO LONGER BE POSSIBLE."
+    IDS_STRING104           "Main archive path"
+    IDS_STRING105           "Disregard recordings less than (seconds)"
+    IDS_STRING106           "For technical support or to upgrade to the pro version contact %s."
+    IDS_STRING107           "xxx"
+    IDS_STRING108           "NOTE: The 65-days evaluation period has expired. If you are convinced about the capabilities of this software, you have to confirm the license agreement. Do you want this?"
+    IDS_STRING109           "Thank you for evaluating this product. You will be able to work with the software for a 65-days period. After that, you have to decide whether SCR suits your needs or not."
+    IDS_STRING110           "Do you have a properly installed MAPI mail system (like Microsoft Outlook)?"
+    IDS_STRING111           "Sorry, then you have to submit the request code in some other manner."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING112           "x"
+    IDS_STRING113           "There was a little problem with the e-mail software on this workstation. Please try if MAPI mailing works better."
+    IDS_STRING114           "SCR license confirmation"
+    IDS_STRING115           "Alternatively, you may call us (Monday-Friday, 9.00am - 5.30pm) to receive a response code without delay. Please dial: "
+    IDS_STRING116           "System has changed. You have to reconfirm the software license."
+    IDS_STRING117           "Response code does not match the request code."
+    IDS_STRING118           "Unable to store some system information. Maybe insufficient privileges? Try to login as Administrator."
+    IDS_STRING119           "Impossible to retrieve some needed system information."
+    IDS_STRING120           "Mail canceled."
+    IDS_STRING121           "NOTE: The 65-days evaluation period will expire in %d days. If you are convinced about the capabilities of this software, you have to confirm the license agreement. Do you want this now?"
+    IDS_STRING122           "Search Filter"
+    IDS_STRING123           "Search for "
+    IDS_STRING124           "Identification"
+    IDS_STRING125           "Reference"
+    IDS_STRING126           "Note"
+    IDS_STRING127           "yyyy/mm/dd"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING128           "hh:mm"
+    IDS_STRING129           "Date after"
+    IDS_STRING130           "Date before"
+    IDS_STRING131           "Min. duration"
+    IDS_STRING132           "Max. duration"
+    IDS_STRING133           "Close search window"
+    IDS_STRING134           "Automatically delete calls older than"
+    IDS_STRING135           "days"
+    IDS_STRING136           "Confirm license "
+    IDS_STRING137           "Name"
+    IDS_STRING138           "Features"
+    IDS_STRING139           "not active"
+    IDS_STRING140           "active"
+    IDS_STRING141           "Important note: In order to run the software in a multi-user environment you need to be logged in with administrator privileges."
+    IDS_STRING142           "Detecting Intelligent Recording Interface"
+    IDS_STRING143           "Checking for control signals..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING144           "Audio device could not be opened"
+    IDS_STRING145           "Cancel (%d seconds)"
+    IDS_STRING146           "No result yet...."
+    IDS_STRING147           "No Intelligent Recording Interface detected"
+    IDS_STRING148           "inactive-signal from left channel"
+    IDS_STRING149           "active-signal from left channel"
+    IDS_STRING150           "inactive-signal from right channel"
+    IDS_STRING151           "active-signal from right channel"
+    IDS_STRING152           "Select Audio Device"
+    IDS_STRING153           "No audio input device could be found on this system."
+    IDS_STRING154           "Status information"
+    IDS_STRING155           ", time elapsed: %02d:%02d:%02d"
+    IDS_STRING156           "Auto Recording"
+    IDS_STRING157           "Removing list entries"
+    IDS_STRING158           "Autostart for all users "
+    IDS_STRING159           "x"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING160           "You need administrator privileges in order to change this setting"
+    IDS_STRING161           "Note: If you do use a CODEC other than Microsoft PCM, you need to adjust the CODECs samplingrate to the soundcards samplingrate. Do you now want to go to the CODECs tab to do this?"
+    IDS_STRING162           "Did not find an Intelligent Recording Interface attached to the currently selected line. Scan all input lines of the selected soundcard now?"
+    IDS_STRING163           "No Intelligent Recording Interface has been detected on your system. If you have one, make sure the IRI's mono socket is connected to the soundcard's line in socket and check power supply and if the dip switches on the bottom side behind the panel are set properly. After you have done this, go to the hardware tab, press 'via line level' and press IRI 'active'. (Note: This message will only appear once.)"
+    IDS_STRING164           "Warning: The Intelligent Recording Interface cannot be detected any more. Maybe it was disconnected. If this is intentional, go to the hardware tab and in the Intelligent Recording Interface section click on 'not active'. Otherwise reconnect the IRI and click OK."
+    IDS_STRING165           "Automatic Level Control"
+    IDS_STRING166           "Master password"
+    IDS_STRING167           "The old index file will now be converted to a format that better suits multi-user environments. If you have other computers in a network, accessing the same directory for recordings, it is strongly recommended that you now deactivate all currently running Software Call Recorders and update them all after the index file has been converted."
+    IDS_STRING168           "Had problems to rename the actual index file for conversion. Please assure that you have proper privileges for this operation and nobody else accesses the file now."
+    IDS_STRING169           "Conversion was not (completely) successful."
+    IDS_STRING170           "This funcion cannot be used due to old format index file."
+    IDS_STRING171           "Problem while converting the index file. Press OK to skip bad record entry. (Note: if this message comes up too often, you may want to abort and move the content of your default recording folder to another folder so the software can create the new index file from scratch. You will allways be able to access the old index file in read-only mode, if you create a folder in the folders list on the playback tab.)"
+    IDS_STRING172           "Find"
+    IDS_STRING173           "Connect to SQL"
+    IDS_STRING174           "You need to install a newer version of the software in order to access this archive folder properly. WARNING: Working with this folder without updating might lead to problems!"
+    IDS_STRING175           "The index file will now be updated. Please deactivate any other Software Call Recorder operating in the archive folder."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING176           "Try to repair the index file? (Note: If you have multiple machines in a network that record to the same archive folder, you need to deactivate those Software Call Recorders before.)"
+    IDS_STRING177           "Index file repair has been successful. Note: If the index file is being corrupted more often, you shoud consider to use a database server to keep the index file."
+    IDS_STRING178           "The index file in this folder has an outdated format and needs to be converted before it can be modified. Do you want to convert it now?"
+    IDS_STRING179           "Set path for temporary files"
+    IDS_STRING180           "In order to use the Nero archiving function you need to have a licensed version of the Nero Burning Rom software (min. version 6.3.1.4 recommended) installed on your system. Note that you have to use this interface 'as is' because we cannot guarantee that it will work with all possible combinations of Nero versions and CD burners. Use at your own risk!"
+    IDS_STRING181           "Using this option, you will be able, within a few steps, to connect to your prefered database server (MS-SQL or mySQL), create the needed tables and store your recordings on a network drive. This has the advanage of having both, higher security for your data and better performance. First you will have to choose an empty network directory where recordings and an index file, which links your database, will be stored. With the second step you select the ODBC data source (which you may create using the windows control panel)."
+    IDS_STRING182           "Connect to Sense"
+    IDS_STRING183           "Couldn't connect to the Sense server specified as defaul location for recordings"
+    IDS_STRING184           "Recording to Sense server only works with MS-PCM or G.711 codec at 8000 Hz sampling frequency. Please check hardware and codec tabs!"
+    IDS_STRING185           "Database server connection seems to be established."
+    IDS_STRING186           "Archive folder is empty"
+    IDS_STRING187           "ID"
+    IDS_STRING188           "Date/Time"
+    IDS_STRING189           "Dur."
+    IDS_STRING190           "Folders"
+    IDS_STRING191           "Playback"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING192           "Modify Folder"
+    IDS_STRING193           "Recording has been disabled: Unable to access the Software Call Recorders licensing server. This can be caused by network trouble or a server downtime. Detailed problem description: "
+    IDS_STRING194           "Recording has been disabled due to network license limitations. Detailed licensing server message: "
+    IDS_STRING195           "Server License No.:    %s\r\nLicensing Server:        %s\r\nNetwork License No.: %s"
+    IDS_STRING196           "requesting..."
+    IDS_STRING197           "none assigned - recording disabled"
+    IDS_STRING198           "Minimize after automatic recording"
+    IDS_STRING199           "Mute signal from input device"
+    IDS_STRING200           "Should you hear the phone signal or a beep tone (in case of an Intelligent Recording Interface attached) from the speekers please follow these instructions to mute the input signal."
+    IDS_STRING201           "1. Open the Windows Control Panel"
+    IDS_STRING202           "2. Open the Sound settings"
+    IDS_STRING203           "3. Select and open your default output device"
+    IDS_STRING204           "4. On the levels tab, mute the input line from which the signal originates"
+    IDS_STRING205           "Mute Input Signal on Output Device"
+    IDS_STRING206           "OK, thanks for the advice"
+    IDS_STRING207           "Warning: The recording will not be stored if you proceed and auto-recording will be disabled. Really cancel recording?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING208           "This recording will be deleted  Did you really want to cancel recording?"
+    IDS_STRING209           "The license registration was succesful and the software is now activated."
+    IDS_STRING210           "The taskbar window doesn't exist or is unresponsive."
+    IDS_STRING211           "Mute Signal"
+    IDS_STRING212           "Open Signal"
+    IDS_STRING213           "Sense Extension"
+    IDS_STRING214           "Waiting for TAPI event"
+    IDS_STRING215           "Error opening file '%s'"
+    IDS_STRING216           "Error renaming file '%s' to '%s'"
+    IDS_STRING217           "Machine-wide settings have changed but couldn't be stored. Please restart the software 'as Administrator' and alter the settings again."
+END
+
+#endif    // Englisch (Vereinigtes Königreich) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

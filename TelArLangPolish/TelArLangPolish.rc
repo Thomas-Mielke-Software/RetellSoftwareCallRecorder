@@ -1,0 +1,390 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polnisch (Polen) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "mailto:mielket@gmx.de"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "TELAR Language DLL (NL)"
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "TelArLangPolish"
+            VALUE "LegalCopyright", "Copyright © 2022 Thomas Mielke Softwareentwicklung & Vidicode UK"
+            VALUE "OriginalFilename", "Telarlng.dll"
+            VALUE "ProductName", "SCR 957"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1             "PL"
+    IDS_STRING2             "UWAGA: To jest wersja demonstracyjna programu. W celu nabycia w pelni funkcjonalnej wersji, skontaktuj sie z %s"
+    IDS_STRING3             "UWAGA: 30-dniowy okres ewaluacyjny ulegl zakonczeniu. Jezeli mozliwosci programu odpowiadaja Panstwa wymaganiom, prosimy o kontakt z %s"
+    IDS_STRING4             "Nagrywanie manualne"
+    IDS_STRING5             "Rozpocznij automatyczne nagrywanie"
+    IDS_STRING6             "Zatrzymaj nagrywania"
+    IDS_STRING7             "Zatrzymaj automatyczne nagrywanie"
+    IDS_STRING8             "Poprzednie nagranie"
+    IDS_STRING9             "UWAGA: Starsza wersja pliku '%s' nie mogla byc zaktualizowana w celu wspólpracy z nowa wersja programu. Dane dotyczace tego nagrania nie zostaly zapisane. Jednakze samo naganie zostalo zapisane pod nazwa '%s'."
+    IDS_STRING10            "Nagrywanie: Podaj sciezke do katalogu archiwum w opcji 'Preferencje'!"
+    IDS_STRING11            "Nagrywanie: Podaj rodzaj urzadzenia wejsciowego audio w opcji 'Preferencje'!"
+    IDS_STRING12            "Nagrywanie: Podaj rodzaj KODEKA oraz format w opcji 'KODEKI'!"
+    IDS_STRING13            "*%04d/%02d/%02d"
+    IDS_STRING14            "Nagrywanie nie moglo sie rozpoczac."
+    IDS_STRING15            "automatyczne zatrzymanie za %d sekund"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING16            "Wlaczony tryb detekcji sygnalu"
+    IDS_STRING17            "automatyczne nagrywanie w toku"
+    IDS_STRING18            "Nacisnij srodkowy przycisk myszki aby wybrac nagrywanie reczne"
+    IDS_STRING19            "Aby wylaczyc nagrywanie reczne, nacisnij srodkowy przycisk myszki"
+    IDS_STRING20            "UWAGA: Zamierzasz zakonczyc program Software Call Recorder!"
+    IDS_STRING21            "Odtwarzanie nie jest mozliwe podczas trwania nagrywania"
+    IDS_STRING22            "<Format MS-PCM bez aktywnego KODEKA>"
+    IDS_STRING23            "Blad wejscia: Czulosc dla sygnalu nalezy ustawic na wartosc pomiedzy 1 a 100!"
+    IDS_STRING24            "Blad wejscia: Aby uruchomic funkcje, czas trwania sygnalu musi zawierac sie w przedziale pomiedzy 1 a100!"
+    IDS_STRING25            "Blad wejscia: Aby zatrzymac funkcje, czas trwania sygnalu musi zawierac sie w przedziale pomiedzy 1 a100!"
+    IDS_STRING26            "kliknij dwukrotnie aby uruchomic program Software Call Recorder"
+    IDS_STRING27            "Rozmowa nie moze zostac zaszyfrowana. Nagranie zostalo zapisane w formacie wav pod nazwa '%s'."
+    IDS_STRING28            "Tymczasowy i nie zaszyfrowany plik '%s' nie mógl zostac usuniety. Nalezy usunac plik manualnie. Upewnij sie, czy masz wystarczajace uprawnienia sieciowe do kasowania plików z tego folderu."
+    IDS_STRING29            "Blad otwarcia pliku."
+    IDS_STRING30            "Plik jest pusty."
+    IDS_STRING31            "Plik, który musial byc zaszyfrowany nie mógl zostac odczytany."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING32            "Zaszyfrowany plik nie moze byc otwarty do zapisu."
+    IDS_STRING33            "Plik, który mial byc odszyfrowany jest pusty."
+    IDS_STRING34            "Plik, który mial byc odszyfrowany nie jest prawidlowym plikiem archiwalnym."
+    IDS_STRING35            "Plik, który mial byc odszyfrowany nie mógl byc odczytany"
+    IDS_STRING36            "Odszyfrowany plik nie mógl byc otwarty do zapisu."
+    IDS_STRING37            "Blad wejscia: Wartosc 'poziomu szyfrowania' musi sie zawierac w przedziale od 1 (niski) do 1000 (sredni)."
+    IDS_STRING38            "Blad deszyfrowania pliku '%s'."
+    IDS_STRING39            "Nieprawidlowe haslo."
+    IDS_STRING40            "Wprowadzone hasla nie sa prawidlowe. Wprowadz ponownie hasla!"
+    IDS_STRING41            "Wybierz z listy element, który zamierzasz wyeksportowac jako plik wav"
+    IDS_STRING42            "Niemozliwe odczytanie wyeksportowanego pliku - operacja wykonana nieprawidlowo!"
+    IDS_STRING43            "Nieznany KODEK pliku WAV. Nagranie zostalo dokonane na innej stacji roboczej. Zainstaluj KODEK równiez w tym systemie."
+    IDS_STRING44            "Nagranie zostalo prawidlowo wyeksportowane do formatu WAV.\r\n\r\n Uwaga: Wyeksportowany plik uzywa KODEKA '%s'. Jezeli zamierzasz przeslac plik WAV na inny komputer upewnij sie, ze na komputerze docelowym zainstalowany jest ten sam KODEK."
+    IDS_STRING45            "Nagranie zostalo prawidlowo wyeksportowane do formatu WAV."
+    IDS_STRING46            "Wyeksportowany plik wav jest uszkodzony."
+    IDS_STRING47            "Nieprawidlowy numer licencji."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING48            "Licencja nr: %s\r\n Wlasciciel licencji:      %s"
+    IDS_STRING49            "Nieprawidlowa sciezka. Wprowadz prawidlowa sciezke do pliku archiwalnego lub utwórz nowy folder."
+    IDS_STRING50            "Wybrany folder archiwum jest pusty. Ten komunikat bedzie wyswietlany do momentu az w folderze zostanie zapisane pierwsze nagranie."
+    IDS_STRING51            "Wybierz folder do zapisu nagranych rozmów telefonicznych. Upewnij sie, ze masz uprawnienia zapisu do tego folderu!"
+    IDS_STRING52            "Wybierz glówny folder, w którym beda tworzone wszystkie podfoldery archiwum."
+    IDS_STRING53            "Nagranie jest szyfrowane"
+    IDS_STRING54            "Nagranie jest deszyfrowane"
+    IDS_STRING55            "Najpierw wybierz element z listy."
+    IDS_STRING56            "Zmiany dokonane na elemencie listy nie mogly byc zapisane w pliku indeksujacym archiwum."
+    IDS_STRING57            "Plik '%s' nie mógl zostac otwarty"
+    IDS_STRING58            "Nieznany format danych"
+    IDS_STRING59            "Plik zostal zapisany przy uzyciu nowszej wersji programu i nie moze zostal zaladowany przy pomocy starszej wersji."
+    IDS_STRING60            "Liczba kolumn tabeli rózni sie od liczby wymaganej przez program"
+    IDS_STRING61            "Naprawde skasowac nagranie?"
+    IDS_STRING62            "Nie mozna skasowac wpisu na liscie (%d ok, %d blad)."
+    IDS_STRING63            "<Domyslne>"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING64            "Nagranie znajduje sie juz w tym folderze."
+    IDS_STRING65            "Uwaga: Kontynuacja spowoduje usuniecie folderu jedynie z listy folderów. Aby skasowac dane z dysku, uzyj Eksploratora. Naprawde skasowac folder '%s' z listy?"
+    IDS_STRING66            "Najpierw nalezy wybrac folder."
+    IDS_STRING67            "Folder domyslny nie moze zostac usuniety."
+    IDS_STRING68            "Nagranie %s nie moglo zostac skopiowane z powodu bledu systemowego. Sprawdz folder zródlowy i docelowy."
+    IDS_STRING69            "Wlasciwosci folderu domyslnego nie moga zostac zmienione."
+    IDS_STRING70            "Wlasciwosci folderu na dysku nie mogly zostac zmienione."
+    IDS_STRING71            "Zla nazwa folderu. Wybierz nazwe folderu, która nie jest jeszcze wykorzystana."
+    IDS_STRING72            "Informacja"
+    IDS_STRING73            "Przerwij nagrywanie"
+    IDS_STRING74            "Wylacz"
+    IDS_STRING75            "Odnosnik"
+    IDS_STRING76            "Uwagi"
+    IDS_STRING77            "Poziom nagrywania"
+    IDS_STRING78            "Kontrola poziomu"
+    IDS_STRING79            "Zapisz z KODEKIEM"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING80            "Dostepne formaty"
+    IDS_STRING81            "Tempo próbkowania"
+    IDS_STRING82            "Urzadzenie"
+    IDS_STRING83            "Linia"
+    IDS_STRING84            "Rozpocznij nagrywanie"
+    IDS_STRING85            "Poziom zlacza liniowego"
+    IDS_STRING86            "manualnie"
+    IDS_STRING87            "Opcje"
+    IDS_STRING88            "Folder domyslny dla nagran"
+    IDS_STRING89            "Identyfikacja"
+    IDS_STRING90            "Haslo"
+    IDS_STRING91            "Poziom szyfrowania"
+    IDS_STRING92            "Parametry automatycznego nagrywania:"
+    IDS_STRING93            "Czulosc (w %maksymalnego poziomu linii)"
+    IDS_STRING94            "Czas trwania sygnalu do rozpoczecia (sekundy)"
+    IDS_STRING95            "Czas braku sygnalu do zatrzymania (sekundy)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING96            "Maksymalizuj na sygnal liniowy (sekundy)"
+    IDS_STRING97            "Nagrywaj"
+    IDS_STRING98            "Nieprawidlowy numer licencji - wprowadz numer ponownie."
+    IDS_STRING99            "Wprowadz numer licencji"
+    IDS_STRING100           "Numer licencji:"
+    IDS_STRING101           "Wprowadz numer licencji."
+    IDS_STRING102           "Anuluj"
+    IDS_STRING103           "BY LICENSING THIS SOFTWARE YOU ARE CONFIRMING THAT A REFUND WILL NO LONGER BE POSSIBLE."
+    IDS_STRING104           "Glówna sciezka do archiwum"
+    IDS_STRING105           "Zignoruj nagrania krótsze niz (sekundy)"
+    IDS_STRING106           "Aby uzyskac wsparcie techniczne lub dokonac modernizacji programu do wersji Pro, skontaktuj sie z firma %s."
+    IDS_STRING107           "xxx"
+    IDS_STRING108           "UWAGA: Zakonczyl sie 65-dniowy okres ewaluacyjny. Jezeli jestes zadowolony z mozliwosci, jakie oferuje program, musisz zatwierdzic umowe licencyjna. Czy chcesz zatwierdzic umowe?"
+    IDS_STRING109           "Dziekujemy za rozpoczecie uzytkowania wersji ewaluacyjnej tego programu. Program bedzie mozliwy do uruchomienia przez 65 dni. Po tym czasie bedziesz musial zdecydowac, czy oprogramowanie rejestratora rozmów odpowiada Twoim wymaganiom."
+    IDS_STRING110           "Czy masz prawidlowo zainstalowany interfejs pocztowy MAPI (jak Microsoft Outlook)?"
+    IDS_STRING111           "Przepraszamy, ale kod zgloszenia musi zostac wprowadzony w inny sposób"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING112           "x"
+    IDS_STRING113           "Wystapil problem z oprogramowaniem pocztowym dzialajacym na tej stacji roboczej. Spróbuj skorzystac z interfejsu pocztowego MAPI."
+    IDS_STRING114           "Potwierdzenie licencji programu SCR"
+    IDS_STRING115           "Mozesz skontaktowac sie z nami telefonicznie (poniedzialek-piatek, 9.00 - 17.30) aby bezzwlocznie otrzymac kod odpowiedzi. Zadzwon pod nastepujacy numer telefonu:.022-878-18-18 "
+    IDS_STRING116           "Nastapila zmiana systemu. Musisz ponownie potwierdzic licencje programu."
+    IDS_STRING117           "Kod odpowiedzi nie jest zgodny z kodem zgloszenia."
+    IDS_STRING118           "Nie mozna zapisac pewnych informacji systemowych. Niewystarczajace uprawnienia? Spróbuj zalogowac sie jako Administrator."
+    IDS_STRING119           "Nie mozna uzyskac potrzebnych informacji systemowych."
+    IDS_STRING120           "Poczta anulowana."
+    IDS_STRING121           "UWAGA: 65-dniowy okres ewaluacyjny zakonczy sie za %d dni. Jezeli jestes zadowolony z mozliwosci, jakie oferuje program, musisz zatwierdzic umowe licencyjna. Czy chcesz zatwierdzic umowe?"
+    IDS_STRING122           "Filtr wyszukiwarki"
+    IDS_STRING123           "Szukaj"
+    IDS_STRING124           "Identyfikacja"
+    IDS_STRING125           "Odnosnik"
+    IDS_STRING126           "Uwaga"
+    IDS_STRING127           "rrrr/mm/dd"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING128           "gg:mm"
+    IDS_STRING129           "Data po"
+    IDS_STRING130           "Data przed"
+    IDS_STRING131           "Min. czas trwania"
+    IDS_STRING132           "Max. czas trwania"
+    IDS_STRING133           "Zamknij okno wyszukiwarki"
+    IDS_STRING134           "Automatycznie skasuj polaczenia starsze niz"
+    IDS_STRING135           "dni"
+    IDS_STRING136           "Potwierdz licencje "
+    IDS_STRING137           "Nazwa"
+    IDS_STRING138           "Funkcje"
+    IDS_STRING139           "nieaktywny"
+    IDS_STRING140           "aktywny"
+    IDS_STRING141           "Wazna informacja: Aby uruchomic program w srodowisku wielouzytkownikowym, musisz zalogowac sie z uprawnieniami administratora."
+    IDS_STRING142           "Trwa detekcja inteligentnego interfejsu rejestrujacego"
+    IDS_STRING143           "Sprawdzanie sygnalów kontrolnych..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING144           "Nie mozna uruchomic urzadzenia audio"
+    IDS_STRING145           "Anuluj (%d sekund)"
+    IDS_STRING146           "Jeszcze brak rezultatu...."
+    IDS_STRING147           "Nie wykryto inteligentnego interfejsu rejestrujacego"
+    IDS_STRING148           "sygnal lewego kanalu - nieaktywny"
+    IDS_STRING149           "sygnal lewego kanalu - aktywny"
+    IDS_STRING150           "sygnal prawego kanalu - nieaktywny"
+    IDS_STRING151           "sygnal prawego kanaly - aktywny"
+    IDS_STRING152           "Wybierz urzadzenie audio"
+    IDS_STRING153           "System nie znajduje zadnego podlaczonego urzadzenia audio"
+    IDS_STRING154           "Informacja o stanie"
+    IDS_STRING155           ", Czas od rozpoczêcia: %02d:%02d:%02d"
+    IDS_STRING156           "Automatyczne nagrywanie"
+    IDS_STRING157           "Usuwanie wpisów listy"
+    IDS_STRING158           "Autom. uruchamianie dla wszystkich uzytkowników"
+    IDS_STRING159           "Error opening file '%s'"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING160           "Aby zmienic to ustawienie potrzebujesz uprawnien administratora."
+    IDS_STRING161           "Uwaga, jesli uzywasz kodeka innego niz Microsoft PCM, musisz dostosowac czestotliwosc próbkowania kodeka do czestotliwosci próbkowania karty dzwiekowej. Czy chcesz teraz przejsc do zakladki KODEKI by to zrobic?"
+    IDS_STRING162           "Nie znaleziono Intelligent Recording Interface (Interfejsu Nagrywania Inteligentnego) przylaczonego do aktualnie wybranej linii. Przeskanowac wszystkie linie wejscia wybranej karty dzwiekowej?"
+    IDS_STRING163           "No Intelligent Recording Interface has been detected on your system. If you have one, make sure the IRI's mono socket is connected to the soundcard's line in socket and check power supply and if the dip switches on the bottom side behind the panel are set properly. After you have done this, go to the hardware tab, press 'via line level' and press IRI 'active'. (Note: This message will only appear once.)"
+    IDS_STRING164           "Warning: The Intelligent Recording Interface cannot be detected any more. Maybe it was disconnected. If this is intentional, go to the hardware tab and in the Intelligent Recording Interface section click on 'not active'. Otherwise reconnect the IRI and click OK."
+    IDS_STRING165           "Automatic Level Control"
+    IDS_STRING166           "Master password"
+    IDS_STRING167           "The old index file will now be converted to a format that better suits multi-user environments. If you have other computers in a network, accessing the same directory for recordings, it is strongly recommended that you now deactivate all currently running Software Call Recorders and update them all after the index file has been converted."
+    IDS_STRING168           "Had problems to rename the actual index file for conversion. Please assure that you have proper privileges for this operation and nobody else accesses the file now."
+    IDS_STRING169           "Conversion was not (completely) successful."
+    IDS_STRING170           "This funcion cannot be used due to old format index file."
+    IDS_STRING171           "Problem while converting the index file. Press OK to skip bad record entry. (Note: if this message comes up too often, you may want to abort and move the content of your default recording folder to another folder so the software can create the new index file from scratch. You will allways be able to access the old index file in read-only mode, if you create a folder in the folders list on the playback tab.)"
+    IDS_STRING172           "Szukaj"
+    IDS_STRING173           "Connect to SQL"
+    IDS_STRING174           "You need to install a newer version of the software in order to access this archive."
+    IDS_STRING175           "The index file will now be updated. Please deactivate any other Software Call Recorder operating in the archive folder."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING176           "Try to repair the index file? (Note: If you have multiple machines in a network that record to the same archive folder, you need to deactivate those Software Call Recorders before.)"
+    IDS_STRING177           "Index file repair has been successful. Note: If the index file is being corrupted more often, you shoud consider to use a database server to keep the index file."
+    IDS_STRING178           "The index file in this folder has an outdated format and needs to be converted before it can be modified. Do you want to convert it now?"
+    IDS_STRING179           "Set path for temporary files"
+    IDS_STRING180           "In order to use the Nero archiving function you need to have a licensed version of the Nero Burning Rom software (min. version 6.3.1.4 recommended) installed on your system. Note that you have to use this interface 'as is' because we cannot guarantee that it will work with all possible combinations of Nero versions and CD burners. Use at your own risk!"
+    IDS_STRING181           "Using this option, you will be able, within a few steps, to connect to your prefered database server (MS-SQL or mySQL), create the needed tables and store your recordings on a network drive. This has the advanage of having both, higher security for your data and better performance. First you will have to choose an empty network directory where recordings and an index file, which links your database, will be stored. With the second step you select the ODBC data source (which you may create using the windows control panel)."
+    IDS_STRING182           "Connect to Sense"
+    IDS_STRING183           "Couldn't connect to the Sense server specified as defaul location for recordings"
+    IDS_STRING184           "Recording to Sense server only works with MS-PCM or G.711 codec at 8000 Hz sampling frequency. Please check hardware and codec tabs!"
+    IDS_STRING185           "Database server connection seems to be established."
+    IDS_STRING186           "Archive folder is empty"
+    IDS_STRING187           "ID"
+    IDS_STRING188           "Data/Godzina"
+    IDS_STRING189           "Czas tr."
+    IDS_STRING190           "Folders"
+    IDS_STRING191           "Odtwarzanie"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING192           "Modify Folder"
+    IDS_STRING193           "Recording has been disabled: Unable to access the Software Call Recorders licensing server. This can be caused by network trouble or a server downtime. Detailed problem description: "
+    IDS_STRING194           "Recording has been disabled due to network license limitations. Detailed licensing server message: "
+    IDS_STRING195           "Server License No.:    %s\r\nLicensing Server:        %s\r\nNetwork License No.: %s"
+    IDS_STRING196           "requesting..."
+    IDS_STRING197           "none assigned - recording disabled"
+    IDS_STRING198           "Minimize after automatic recording"
+    IDS_STRING199           "Mute signal from input device"
+    IDS_STRING200           "Should you hear the phone signal or a beep tone (in case of an Intelligent Recording Interface attached) from the speekers please follow these instructions to mute the input signal."
+    IDS_STRING201           "1. Open the Windows Control Panel"
+    IDS_STRING202           "2. Open the Sound settings"
+    IDS_STRING203           "3. Select and open your default output device"
+    IDS_STRING204           "4. On the levels tab, mute the input line from which the signal originates"
+    IDS_STRING205           "Mute Input Signal on Output Device"
+    IDS_STRING206           "OK, thanks for the advice"
+    IDS_STRING207           "Warning: The recording will not be stored if you proceed and auto-recording will be disabled. Really cancel recording?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING208           "This recording will be deleted  Did you really want to cancel recording?"
+    IDS_STRING209           "The license registration was succesful and the software is now activated."
+    IDS_STRING210           "The taskbar window doesn't exist or is unresponsive."
+    IDS_STRING211           "Mute Signal"
+    IDS_STRING212           "Open Signal"
+    IDS_STRING213           "Sense Extension"
+    IDS_STRING214           "Waiting for TAPI event"
+    IDS_STRING215           "Error opening file '%s'"
+    IDS_STRING216           "Error renaming file '%s' to '%s'"
+    IDS_STRING217           "Machine-wide settings have changed but couldn't be stored. Please restart the software 'as Administrator' and alter the settings again."
+END
+
+#endif    // Polnisch (Polen) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,10 @@
+LIBRARY WAVEIN
+
+DESCRIPTION "WAVE DEVICE RECORDER DLL"
+
+; no moveable code allowed for interrupt callback function:
+;CODE FIXED
+;DATA FIXED
+; (disabled for visual studio 6.0)
+
+STACKSIZE 30000

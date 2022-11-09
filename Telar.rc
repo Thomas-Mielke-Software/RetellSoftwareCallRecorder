@@ -1,0 +1,2209 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Tschechisch (Tschechische Republik) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CSY)
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CZ_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Nový adresár"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Název",IDC_STATIC,7,9,22,8
+    EDITTEXT        IDC_NAME,35,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Cesta",IDC_STATIC,7,23,24,8
+    EDITTEXT        IDC_PFAD,35,21,128,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Zrusit",IDCANCEL,130,39,50,14
+END
+
+IDD_CZ_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Editace záznam"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Reference",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Poznámka",IDC_STATIC,7,24,36,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Zrusit",IDCANCEL,158,88,50,14
+END
+
+IDD_CZ_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 238, 189
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Licencní smlouvou "
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Díky za instalaci tohoto software. Jako potvrzení, ze souhlasíte s licencní smlouvou a zaslete nám pozadavek vstupního kódu.",IDC_STATIC,7,7,224,19
+    LTEXT           "Pozadovaný kód",IDC_STATIC,7,30,50,8
+    EDITTEXT        IDC_REQUESTCODE,65,29,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&Kopírovat do clipboard",IDC_COPYTOCLIPBOARD,155,28,76,14
+    PUSHBUTTON      "Poslat &WWW",IDC_WWW,7,47,72,14
+    PUSHBUTTON      "Poslat &MAPI mail",IDC_MAPIMAIL,83,47,72,14
+    PUSHBUTTON      "Poslat &internet mail",IDC_INTERNETMAIL,159,47,72,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,65,224,33
+    LTEXT           "Obdrzíte odpovídající kód, který umozní dokoncit instalaci.",IDC_STATIC,7,103,224,18
+    LTEXT           "Odpovídající kód",IDC_STATIC,7,126,69,8
+    EDITTEXT        IDC_RESPONSECODE,97,124,133,12,ES_AUTOHSCROLL
+    LTEXT           "Poznámka: Pokud neobdrzíte odpovídající kód telefonicky, stisknete tlacítko Cancel a pokracujte s instalací pozdeji.",IDC_STATIC,7,140,224,25
+    PUSHBUTTON      "Zrusení",IDCANCEL,125,168,50,14
+    DEFPUSHBUTTON   "OK",IDOK,181,168,50,14,WS_DISABLED
+END
+
+IDD_CZ_PASSWORT DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Zmena hesla"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Pro potvrzení zadejte heslo znovu",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Zrusit",IDCANCEL,103,42,50,14
+END
+
+IDD_CZ_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 180, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Aplikace zablokována uzamcením"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Odblokování aplikace heslem",IDC_STATIC,7,7,166,10
+    EDITTEXT        IDC_PASSWORT,48,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,67,42,50,14
+    PUSHBUTTON      "Zrusit",IDCANCEL,123,42,50,14
+END
+
+IDD_CZ_PASSWORT_CHECK DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Ochrana heslem"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Zadání hesla pro záznam",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Zrusit",IDCANCEL,103,42,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CZ_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_CZ_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_CZ_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_CZ_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_CZ_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_CZ_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Tschechisch (Tschechische Republik) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Standard) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_IMAGE_LIST          BITMAP                  "res\\bitmap1.bmp"
+
+#endif    // Neutral (Standard) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 240, 148
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,29,32,14,WS_GROUP
+    DEFPUSHBUTTON   "Update",IDC_UPDATE,193,45,32,14,NOT WS_VISIBLE | WS_GROUP
+    PUSHBUTTON      "www",IDC_HOMEPAGE,128,100,97,10
+    PUSHBUTTON      "E-Mail",IDC_EMAIL,128,111,97,10
+    CONTROL         "",IDC_LICENSE_INFO,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,11,16,182,42
+    CONTROL         "",IDC_VERSIONINFO,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,11,4,227,10
+END
+
+IDD_PROPPAGE1 DIALOGEX 0, 0, 363, 226
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_THICKFRAME
+CAPTION "Aufnahme"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Gesprächspartner",IDC_GESPRAECHSPARTNER_TEXT,7,8,74,9,NOT WS_VISIBLE
+    LTEXT           "Notizen",IDC_NOTIZEN_TEXT,7,22,59,8,NOT WS_VISIBLE
+    LTEXT           "Aufnahmepegel",IDC_AUFNAHMEPEGEL_TEXT,7,116,69,8,NOT WS_VISIBLE
+    LTEXT           "Aussteuerung",IDC_STATIC_AUSSTEUERUNG,7,129,67,8,NOT WS_VISIBLE
+    CONTROL         "Deaktivieren",IDC_BEENDEN,"Button",BS_OWNERDRAW | WS_TABSTOP,7,146,50,45
+    CONTROL         "Letzte Aufn.",IDC_LETZTE_AUFNAHME,"Button",BS_OWNERDRAW | WS_TABSTOP,68,146,50,45
+    CONTROL         "&Info",IDC_INFO,"Button",BS_OWNERDRAW | WS_TABSTOP,128,146,50,45
+    CONTROL         "Abbrechen",IDC_ABBRECHEN,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,189,146,50,45
+    CONTROL         "&manuelle Aufn.",IDC_AUFNAHME,"Button",BS_OWNERDRAW | BS_CENTER | BS_VCENTER | BS_MULTILINE | WS_TABSTOP,248,146,50,45
+    CONTROL         "&Stumm- schalten",IDC_MUTE,"Button",BS_OWNERDRAW | BS_CENTER | BS_VCENTER | BS_MULTILINE | WS_TABSTOP,306,146,50,45
+    CONTROL         "",IDC_ADVERTISING,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,195,349,26
+    LTEXT           "Statusinformation",IDC_STATUS_TEXT,7,99,74,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_VENDOR_LOGO_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,295,200,67,25
+    EDITTEXT        IDC_GESPRAECHSPARTNER,90,7,266,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_NOTIZEN,90,20,266,76,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_DISABLED
+    LTEXT           "",IDC_SPEICHERN_IN,90,98,266,10,SS_SUNKEN
+    LTEXT           "",IDC_PEAKLEVEL,90,115,266,10,SS_SUNKEN
+    CONTROL         "Slider1",IDC_AUSSTEUERUNG,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_BORDER | WS_TABSTOP,90,129,266,12
+END
+
+IDD_PROPPAGE2 DIALOGEX 0, 0, 363, 226
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Wiedergabe"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NOTIZEN_OUTPUT,122,135,234,28,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_ADD_ORDNER,7,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_DEL_ORDNER,21,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_EDIT_ORDNER,35,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_REW2,66,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_REW,80,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_PLAY,94,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_PAUSE,108,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_STOP,122,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_FF,136,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_FF2,150,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_EDIT,166,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_DELETE,180,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_SUCHEN,196,190,14,13,BS_BITMAP
+    PUSHBUTTON      "",IDC_EXPORT,210,190,14,13,BS_BITMAP
+    CTEXT           "00:00:00",IDC_POSITION,69,207,30,10,SS_SUNKEN
+    CONTROL         "Slider1",IDC_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,99,207,123,10
+    CONTROL         "",IDC_VENDOR_LOGO_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,296,200,67,25
+    PUSHBUTTON      "",IDC_ARCHIVE,49,190,14,13,BS_BITMAP
+    CONTROL         "List1",IDC_LISTE,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,66,3,290,185
+    CONTROL         "List1",IDC_ORDNER,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,3,56,185
+    CONTROL         "Slider1",IDC_SPEAKERVOLUME,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,227,200,10,18
+    CONTROL         IDD_CZ_PASSWORT_CHECK,IDC_SPEAKER_ICON,"Static",SS_BITMAP,227,190,12,11
+END
+
+IDD_PROPPAGE3 DIALOGEX 0, 0, 363, 226
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Hardware"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SAMPLINGRATE_FRAME,"Static",SS_ETCHEDFRAME | SS_SUNKEN,82,34,25,24
+    LTEXT           "Samplingrate",IDC_SAMPLINGRATE_STATIC,107,34,90,12,SS_SUNKEN | WS_BORDER
+    LTEXT           "",IDC_DEFAULT_STATIC,186,36,8,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_SAMPLINGRATE,107,45,90,90,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_GERAET_FRAME,"Static",SS_ETCHEDFRAME | SS_SUNKEN,82,63,25,24
+    LTEXT           "Gerät",IDC_GERAET_STATIC,107,63,170,12,SS_SUNKEN | WS_BORDER
+    COMBOBOX        IDC_DEVICE,107,76,169,42,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_ANSCHLUSS_FRAME,"Static",SS_ETCHEDFRAME | SS_SUNKEN,82,95,25,24
+    LTEXT           "Anschluß",IDC_ANSCHLUSS_STATIC,107,95,170,12,SS_SUNKEN | WS_BORDER
+    PUSHBUTTON      "Mute signal from input device",IDC_ANSCHLUSS_VISTA_MUTE,107,106,170,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_ANSCHLUSS,107,106,170,86,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_ADVERTISING,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,141,349,77
+    CONTROL         "",IDC_AUFNAHMESTART_FRAME,"Static",SS_ETCHEDFRAME | SS_SUNKEN,82,125,25,24
+    LTEXT           "Aufnahmestart",IDC_AUFNAHMESTART_STATIC,107,125,170,12,SS_SUNKEN | WS_BORDER
+    CONTROL         "durch Leitungspegel",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,108,137,70,12
+    CONTROL         "von Hand",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,177,137,50,12
+    CONTROL         "TAPI Event",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_GROUP,227,137,50,12
+    CONTROL         "",IDC_INTELLIGENT_FRAME,"Static",SS_ETCHEDFRAME | SS_SUNKEN,82,154,25,24
+    LTEXT           "Intelligent Recording Interface®",IDC_INTELLIGENT_STATIC,107,154,170,12,SS_SUNKEN | WS_BORDER
+    CONTROL         "nicht aktiv",IDC_INTELLIGENT_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,108,167,84,12
+    CONTROL         "aktiv",IDC_INTELLIGENT_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,193,167,83,12
+    CONTROL         "",IDC_VENDOR_LOGO_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,296,200,67,25
+END
+
+IDD_PROPPAGE4 DIALOGEX 0, 0, 363, 226
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "CODECs"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Speichern mit CODEC",IDC_CODEC_STATIC,8,7,113,8,NOT WS_VISIBLE
+    LISTBOX         IDC_LISTE,7,17,172,136,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Verfügbare Formate",IDC_FORMAT_STATIC,186,7,114,8,NOT WS_VISIBLE
+    LISTBOX         IDC_LISTE_FORMAT,184,17,172,138,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Name",IDC_NAME_STATIC,7,160,41,9,NOT WS_VISIBLE
+    LTEXT           "Features",IDC_FEATURES_STATIC,7,177,41,9,NOT WS_VISIBLE
+    LTEXT           "",IDC_NAME,45,158,311,12,SS_SUNKEN | WS_BORDER
+    LTEXT           "",IDC_FEATURES,45,175,311,20,SS_SUNKEN | WS_BORDER
+    CONTROL         "",IDC_VENDOR_LOGO_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,296,200,67,25
+END
+
+IDD_PROPPAGE5 DIALOGEX 0, 0, 363, 226
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "allgem. Einstellungen"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Standard-Verzeichnispfad für Aufnahmen",IDC_DEFAULT_STATIC,7,7,149,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_DEFAULT,7,16,147,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_ROOT_PATH,158,16,15,12
+    PUSHBUTTON      "Connect to SQL",IDC_CONNECT_TO_SQL_SERVER,178,16,60,12
+    PUSHBUTTON      "Connect to Sense",IDC_CONNECT_TO_SENSE,240,16,60,12
+    LTEXT           "Automatisch löschen, wenn älter als",IDC_LOESCHEN1_STATIC,7,32,175,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_LOESCHEN,199,30,23,12,ES_AUTOHSCROLL
+    LTEXT           "Tage",IDC_LOESCHEN2_STATIC,226,32,76,9,NOT WS_VISIBLE
+    LTEXT           "Haupt-Archivverzeichnispfad",IDC_MAINARCHIVE_STATIC,7,44,171,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_MAINARCHIVE,7,54,331,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_MAINARCHIVE,341,54,15,12
+    LTEXT           "Identifikation",IDC_INITIALEN_STATIC,7,71,49,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_INITIALEN,67,69,23,12,ES_AUTOHSCROLL
+    LTEXT           "Autostart for all users",IDC_AUTOSTART_STATIC,231,71,110,9,NOT WS_VISIBLE
+    CONTROL         "",IDC_AUTOSTART,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,348,70,8,10
+    LTEXT           "Paßwort",IDC_PASSWORT_STATIC,7,84,42,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_PASSWORT,67,82,23,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Master-Paßwort",IDC_MASTERPASSWORT_STATIC,128,84,58,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_MASTERPASSWORT,199,82,23,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Verschlüsselungsgrad",IDC_PASSES_STATIC,255,84,69,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_PASSES,333,81,23,12,ES_AUTOHSCROLL
+    LTEXT           "Aufnahme-Automatik:",IDC_AUFNAHME_AUTOMATIK_STATIC,7,97,86,8,NOT WS_VISIBLE
+    LTEXT           "Automatic Level Control",IDC_ALC_STATIC,7,109,186,9,NOT WS_VISIBLE
+    CONTROL         "",IDC_ALC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,109,8,10
+    LTEXT           "Empfindlichkeit (in % d. Maximalpegels)",IDC_EMPFINDLICHKEIT_STATIC,7,122,188,9,NOT WS_VISIBLE
+    CTEXT           "0%",IDC_EMPFINDLICHKEIT_ANZEIGE,238,113,18,8
+    CONTROL         "Slider1",IDC_EMPFINDLICHKEIT_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,195,121,103,12,WS_EX_TRANSPARENT
+    LTEXT           "Signaldauer für Start (Sek.)",IDC_START_STATIC,7,135,188,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_START,199,134,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_START_SPIN,"msctls_updown32",UDS_ARROWKEYS,223,134,9,12
+    LTEXT           "Dauer d. Signalausfalls für Stop (Sek.)",IDC_STOP_STATIC,7,148,186,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_STOP,199,147,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_STOP_SPIN,"msctls_updown32",UDS_ARROWKEYS,223,147,9,12
+    LTEXT           "Vergrößern nach x Sekunden automatischer Aufnahme",IDC_VERGROESSERN_BEI_PEGEL_STATIC,7,161,187,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_VERGROESSERN_BEI_PEGEL,199,160,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_VERGROESSERN_BEI_PEGEL_SPIN,"msctls_updown32",UDS_ARROWKEYS,223,160,9,12
+    LTEXT           "Minimieren nach automatischer Aufnahme",IDC_MINIMIZE_AFTER_STATIC,7,174,186,9,NOT WS_VISIBLE
+    CONTROL         "",IDC_MINIMIZE_AFTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,199,174,8,10
+    LTEXT           "Nichtbeachtung von Aufnahmen unter (Sek.)",IDC_NICHTBEACHTUNG_STATIC,7,187,188,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_NICHTBEACHTUNG,199,186,23,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_NICHTBEACHTUNG_SPIN,"msctls_updown32",UDS_ARROWKEYS,223,186,9,12
+    CONTROL         "",IDC_VENDOR_LOGO_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,296,200,67,25
+    CONTROL         "",IDC_ADVERTISING,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,120,349,56
+    LTEXT           "Autostart for all users",IDC_AUTOSTART_STATIC_LONG,128,71,173,9,NOT WS_VISIBLE
+    LTEXT           "Sense Extension",IDC_SENSE_EXTENSION_STATIC,7,199,105,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_SENSE_EXTENSION,199,197,23,12,ES_AUTOHSCROLL
+END
+
+IDD_EMAIL DIALOG 0, 0, 246, 156
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sende E-Mail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXT,7,7,232,123,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "Senden",IDOK,132,135,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,189,135,50,14
+END
+
+IDD_PASSWORT DIALOG 0, 0, 200, 68
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Zmien haslo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Ponownie wprowadz haslo w celu potwierdzenia",IDC_STATIC,7,7,186,10
+    EDITTEXT        IDC_PASSWORT,59,24,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,88,47,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,143,47,50,14
+END
+
+IDD_PASSWORT_CHECK DIALOG 0, 0, 174, 69
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Passwortabfrage"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Bitte das Passwort der Aufnahme eingeben:",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,47,24,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,63,48,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,117,48,50,14
+END
+
+IDD_SUCHFILTER DIALOG 0, 0, 198, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Suchfilter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Suche nach ",IDC_STATIC_SUCHE_NACH_FRAME,7,7,184,137
+    LTEXT           "Identifikation",IDC_STATIC_IDENTIFIKATION,17,18,58,8
+    EDITTEXT        IDC_IDENTIFIKATION,78,17,20,12,ES_AUTOHSCROLL
+    LTEXT           "Gesprächspartner",IDC_STATIC_GESPRAECHSPARTNER,17,32,58,8
+    EDITTEXT        IDC_GESPRAECHSPARTNER,78,31,102,12,ES_AUTOHSCROLL
+    LTEXT           "Notizen",IDC_STATIC_NOTIZEN,17,47,58,8
+    EDITTEXT        IDC_NOTIZEN,78,45,102,12,ES_AUTOHSCROLL
+    LTEXT           "tt.mm.jjjj",IDC_STATIC_DATUM,78,61,47,8
+    LTEXT           "hh:mm",IDC_STATIC_ZEIT1,130,61,45,8
+    LTEXT           "Datum nach",IDC_STATIC_DATUM_NACH,17,72,58,8
+    EDITTEXT        IDC_DATUM_NACH,78,71,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZEIT_NACH,130,71,50,12,ES_AUTOHSCROLL
+    LTEXT           "Datum vor",IDC_STATIC_DATUM_VOR,17,86,59,8
+    EDITTEXT        IDC_DATUM_VOR,78,85,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZEIT_VOR,130,85,50,12,ES_AUTOHSCROLL
+    LTEXT           "hh:mm",IDC_STATIC_ZEIT2,78,102,38,8
+    LTEXT           "Minimale Dauer",IDC_STATIC_MIN_DAUER,18,113,58,8
+    EDITTEXT        IDC_MIN_DAUER,78,112,50,12,ES_AUTOHSCROLL
+    LTEXT           "Maximale Dauer",IDC_STATIC_MAX_DAUER,18,127,59,8
+    EDITTEXT        IDC_MAX_DAUER,78,126,50,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Suchfilter schließen",IDCANCEL,89,149,102,14
+    DEFPUSHBUTTON   "Suchen",IDOK,7,149,78,14
+END
+
+CG_IDD_PROGRESS DIALOG 0, 0, 186, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,15,18,154,13
+    LTEXT           " 0 %",CG_IDC_PROGDLG_PERCENT,83,7,18,8
+END
+
+IDD_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Listeneintrag bearbeiten"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Partner",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Notiz",IDC_STATIC,7,24,17,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,158,88,50,14
+END
+
+IDD_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Neuer Ordner"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_STATIC,7,9,20,8
+    EDITTEXT        IDC_NAME,30,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Pfad",IDC_STATIC,7,23,15,8
+    EDITTEXT        IDC_PFAD,30,21,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,39,50,14
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+END
+
+IDD_ENTER_KEY DIALOG 0, 0, 289, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LICENSE_KEY,113,103,169,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,115,154,50,14
+    PUSHBUTTON      "&65 days demo",IDTRIAL,174,154,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,232,154,50,14
+    CONTROL         176,IDC_STATIC,"Static",SS_BITMAP,7,7,100,92
+    RTEXT           "",IDC_LICENSE_KEY_STATIC,7,104,99,11
+    LTEXT           "",IDC_TEXT,115,11,167,40
+    LTEXT           "XXXXX-XXXXX-XXXXXXXXXXXXXXXXXX",IDC_STATIC,115,117,167,8
+    LTEXT           "",IDC_TEXT2,115,55,167,40
+    LTEXT           "",IDC_TEXT3,7,130,275,21
+END
+
+IDD_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 174, 69
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Programm gesperrt"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Bitte Passwort eingeben, um das Programm zu öffnen",IDC_STATIC,7,7,160,17
+    EDITTEXT        IDC_PASSWORT,47,26,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,63,48,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,117,48,50,14
+END
+
+IDD_ENTER_CONTACT_DETAILS DIALOG 0, 0, 316, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License confirmation contact details"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,116,32,193,12,ES_AUTOHSCROLL
+    LTEXT           "Phone",IDC_STATIC,7,49,22,8
+    EDITTEXT        IDC_PHONE,116,48,103,12,ES_AUTOHSCROLL
+    LTEXT           "Where did you buy the product?",IDC_STATIC,7,65,102,8
+    EDITTEXT        IDC_FROM,115,64,194,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,205,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,259,82,50,14
+    LTEXT           "Please fill in the following fields in order to provide you with the response code that confirms the license agreement.",IDC_STATIC,7,9,302,17
+    LTEXT           "Name/company",IDC_STATIC,7,33,58,8
+END
+
+IDD_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 238, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Lizenzbestätigung"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Vielen Dank für die Installation dieser Software. Um zu bestätigen, dass Sie mit dem Lizenzvereinbarungen einverstanden sind, senden Sie uns bitte diesen Anforderungscode:",IDC_STATIC,7,7,224,29
+    LTEXT           "Anforderungscode:",IDC_STATIC,7,39,64,8
+    EDITTEXT        IDC_REQUESTCODE,74,38,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "-> &Zwischenablage",IDC_COPYTOCLIPBOARD,161,37,70,14
+    PUSHBUTTON      "Über &WWW senden",IDC_WWW,7,56,70,14
+    PUSHBUTTON      "&MAPI mail senden ",IDC_MAPIMAIL,84,56,70,14
+    PUSHBUTTON      "Senden per &internet ",IDC_INTERNETMAIL,161,56,70,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,74,224,33
+    LTEXT           "Sie werden dann einen Bestätigungscode erhalten, den Sie für den weiteren Installationsprozess benötigen.",IDC_STATIC,7,112,224,18
+    LTEXT           "Bestätigungscode:",IDC_STATIC,7,135,57,8
+    EDITTEXT        IDC_RESPONSECODE,97,133,133,12,ES_AUTOHSCROLL
+    LTEXT           "Hinweis: Wenn Sie sich den Bestätigungscode nicht über einen Telefonanruf besorgen, können Sie hier abbrechen und den Installationsvorgang zu einem späteren Zeitpunkt fortsetzen.",IDC_STATIC,7,149,224,25
+    PUSHBUTTON      "Abbrechen",IDCANCEL,125,176,50,14
+    DEFPUSHBUTTON   "OK",IDOK,181,176,50,14,WS_DISABLED
+END
+
+IDD_DETECT_SUPER_MODULAR DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Detecting Intelligent Recording Interface"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,79,74,100,14
+    LTEXT           "Checking for control signals...",IDC_STATIC,7,7,172,8
+    LTEXT           "",IDC_STATUS,7,22,172,44
+END
+
+IDD_SELECT_DEVICE DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Audio Device"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,74,50,14
+    LISTBOX         IDC_LISTE,7,7,172,63,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_AUTO_UPDATE_DIALOG DIALOG 0, 0, 285, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Auto Update"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "List of New Features && Fixes",IDC_STATIC,7,7,271,69
+    GROUPBOX        "Transfer Status",IDC_STATIC,7,79,271,59
+    LTEXT           "",IDC_STATUS,17,90,254,16
+    LTEXT           " 0 %",CG_IDC_PROGDLG_PERCENT,131,108,18,8
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,16,119,255,13
+    DEFPUSHBUTTON   "Download",IDOK,170,143,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,228,143,50,14
+    EDITTEXT        IDC_INFO,14,19,258,50,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_DATASOURCE DIALOGEX 0, 0, 220, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Data Source"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,109,137,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,137,50,14
+    LISTBOX         IDC_LIST1,7,7,205,128,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+    END
+
+    IDD_PROPPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_PROPPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_PROPPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_PROPPAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_PROPPAGE5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+
+    IDD_EMAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SUCHFILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_ENTER_KEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_ENTER_CONTACT_DETAILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_DETECT_SUPER_MODULAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SELECT_DEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_AUTO_UPDATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DATASOURCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SUCHEN              BITMAP                  "res\\Suchen.bmp"
+
+IDB_REW                 BITMAP                  "res\\rew.bmp"
+
+IDB_PLAY                BITMAP                  "res\\play.bmp"
+
+IDB_PAUSE               BITMAP                  "res\\pause.bmp"
+
+IDB_STOP                BITMAP                  "res\\stop.bmp"
+
+IDB_FF                  BITMAP                  "res\\ff.bmp"
+
+IDB_FF2                 BITMAP                  "res\\ff2.bmp"
+
+IDB_REW2                BITMAP                  "res\\rew2.bmp"
+
+IDB_EXPORT              BITMAP                  "res\\Export.bmp"
+
+IDB_DELETE              BITMAP                  "res\\delete.bmp"
+
+IDB_EDIT                BITMAP                  "res\\edit.bmp"
+
+IDB_ADD_ORDNER          BITMAP                  "res\\add_ordner.bmp"
+
+IDB_DEL_ORDNER          BITMAP                  "res\\del_ordner.bmp"
+
+IDB_EDIT_ORDNER         BITMAP                  "res\\edit_ordner.bmp"
+
+IDB_ROBOT               BITMAP                  "res\\robot.bmp"
+
+IDB_NO_ROBOT            BITMAP                  "res\\no_robot.bmp"
+
+IDB_BUTTONDOWN          BITMAP                  "down.bmp"
+
+IDB_BUTTONBITMAP        BITMAP                  "default.bmp"
+
+IDB_NO_MANAUF           BITMAP                  "res\\no_manauf.bmp"
+
+IDB_MANAUF              BITMAP                  "res\\manauf.bmp"
+
+IDB_INFO                BITMAP                  "res\\info.bmp"
+
+IDB_TRASHCAN            BITMAP                  "res\\trashcan.bmp"
+
+IDB_SPEAKER             BITMAP                  "res\\speaker.bmp"
+
+IDB_CUTWIRE             BITMAP                  "res\\cutwire.bmp"
+
+IDB_MICROFON            BITMAP                  "res\\microfon.bmp"
+
+IDB_SAMPLINGRATE        BITMAP                  "res\\samplingrate.bmp"
+
+IDB_HARDWARE            BITMAP                  "res\\hardware.bmp"
+
+IDB_ANSCHLUSS           BITMAP                  "res\\anschluss.bmp"
+
+IDB_AUFNAHMESTART       BITMAP                  "res\\aufnahmestart.bmp"
+
+IDB_FALCON              BITMAP                  "res\\falcon.bmp"
+
+IDB_EXIT                BITMAP                  "res\\exit.bmp"
+
+IDB_INTELLIGENT         BITMAP                  "res\\intelligent.bmp"
+
+IDB_ACTIMAX_ON_GREY     BITMAP                  "TelarVendorActimax\\TelarVendorActimax_on_grey.bmp"
+
+IDB_RETELL_ON_GREY      BITMAP                  "TelarVendorRetell\\TelarVendorRetell_on_grey.bmp"
+
+IDB_DISC                BITMAP                  "res\\disc.bmp"
+
+IDB_SPEAKERVOLUME       BITMAP                  "res\\speakervolume.bmp"
+
+IDB_MUTE_MICROPHONE     BITMAP                  "res\\mute.bmp"
+
+IDB_OPEN_MICROPHONE     BITMAP                  "res\\open_mikropone.bmp"
+
+IDB_INFOSIGN            BITMAP                  "res\\infosign.bmp"
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Telar.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc""              // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TelAr.ico"
+
+IDR_MAINFRAME_RECORDING ICON                    "res\\idr_main.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE3 DLGINIT
+BEGIN
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3834, 0x3030, 0x0030, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3434, 0x3031, 0x0030, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3233, 0x3730, 0x0035, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3233, 0x3030, 0x0030, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3232, 0x3530, 0x0030, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3631, 0x3030, 0x0030, 
+    IDC_SAMPLINGRATE, 0x403, 6, 0
+0x3131, 0x3230, 0x0035, 
+    IDC_SAMPLINGRATE, 0x403, 5, 0
+0x3038, 0x3030, "\000" 
+    IDC_SAMPLINGRATE, 0x403, 5, 0
+0x3036, 0x3030, "\000" 
+    IDC_DEVICE, 0x403, 1, 0
+"\000" 
+    IDC_ANSCHLUSS, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "Software Call Recorder Inf&o..."
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+    IDS_TITEL               "Software Call Recorder Demo"
+    IDS_TITEL2              "Software Call Recorder"
+    IDS_TITEL3              "Software Call Recorder lite"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PROPSHT_CAPTION1    "Archive Wizard"
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (USA) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NERO_DIALOG DIALOGEX 0, 0, 306, 274
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Burn Files to CD"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Volume Name",IDC_STATIC,7,7,292,28
+    EDITTEXT        IDC_VOLUME_NAME,19,18,262,12,ES_AUTOHSCROLL
+    GROUPBOX        "Available Devices",IDC_STATIC,7,39,292,32
+    COMBOBOX        IDC_DEVICES,18,50,264,103,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Burn Progress",IDC_STATIC,7,76,292,35
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,18,86,265,14
+    GROUPBOX        "Burn Control",IDC_STATIC,7,116,292,34
+    DEFPUSHBUTTON   "Burn",IDC_BURN,19,128,199,14
+    PUSHBUTTON      "Abort",IDC_ABORT,230,128,50,14,WS_DISABLED
+    GROUPBOX        "Nero API And Application Messages",IDC_STATIC,7,154,292,93
+    EDITTEXT        IDC_MESSAGES,20,170,261,70,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Close",IDCANCEL,249,250,50,14
+END
+
+IDD_MUTEINPUT DIALOGEX 0, 0, 614, 366
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Mute Input Signal on Output Device"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK, thanks for the advice",IDOK,475,345,132,14
+    LTEXT           "Should you hear the phone signal or a beep tone (in case of an Intelligent Recording Interface attached) from the speekers please follow these instructions to mute the input signal.",IDC_STATIC0,7,7,600,18
+    LTEXT           "1. Open the Windows Control Panel",IDC_STATIC1,7,31,129,21
+    PUSHBUTTON      "Open Control Panel",IDC_OPEN_CONTROL_PANEL,143,28,127,14,NOT WS_VISIBLE
+    LTEXT           "2. Open the Sound settings",IDC_STATIC2,7,75,165,20
+    CONTROL         IDD_CZ_PROPPAGE2,IDC_CONTROL_PANEL_SOUND,"Static",SS_BITMAP,178,58,51,44
+    LTEXT           "3. Select and open your default output device",IDC_STATIC3,7,117,275,19
+    CONTROL         IDD_NL_ADD_FOLDER,IDC_SELECT_DEFAULT_OUTPUT_DEVICE,
+                    "Static",SS_BITMAP,7,138,276,156
+    LTEXT           "4. On the levels tab, mute the input line from which the signal originates",IDC_STATIC4,332,31,275,19
+    CONTROL         IDD_PL_PROPPAGE2,IDC_MUTE_INPUT_LINE,"Static",SS_BITMAP,330,52,277,282
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_NERO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_MUTEINPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 607
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 359
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+IDB_NAVIGATION_LARGE    BITMAP                  "res\\nav_large.bmp"
+
+IDB_NAVIGATION_LARGE_HC BITMAP                  "res\\nav_large_hc.bmp"
+
+IDB_PAGES               BITMAP                  "res\\pages.bmp"
+
+IDB_PAGES_HC            BITMAP                  "res\\pages_hc.bmp"
+
+IDB_PAGES_SMALL         BITMAP                  "res\\pages_small.bmp"
+
+IDB_PAGES_SMALL_HC      BITMAP                  "res\\pages_small_hc.bmp"
+
+IDB_INFO                BITMAP                  "res\\info.bmp"
+
+IDB_DRAGDROP            BITMAP                  "res\\dragdrop.bmp"
+
+IDB_DRAGDROP_MULTI      BITMAP                  "res\\dragdrop_multi.bmp"
+
+IDB_DRAGDROP_COPY       BITMAP                  "res\\dragdrop_copy.bmp"
+
+IDB_DRAGDROP_MULTI_COPY BITMAP                  "res\\dragdrop_multi_copy.bmp"
+
+IDB_CONTROL_PANEL_SOUND BITMAP                  "res\\control_panel_sound.bmp"
+
+IDB_SELECT_DEFAULT_OUTPUT_DEVICE BITMAP                  "res\\select_default_output_device.bmp"
+
+IDB_MUTE_INPUT_LINE     BITMAP                  "res\\mute_input_line.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Telar.ico"
+
+IDR_RetellSCRVwSetTYPE  ICON                    "res\\TelarDoc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_PROPERTIES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars and Docking Windows"
+        BEGIN
+            MENUITEM "<placeholder>",               ID_VIEW_TOOLBAR
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Caption Bar",                ID_VIEW_CAPTION_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Telar...",             ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Retell Software Call Recorder\n\nRetellSCRVwSet\nRetell View Sets (*.vws)\n.vws\nRetellSCR.ViewSet\n Retell Software Call Recorder View Set"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Telar"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_DIRECT    "Print the active document using current options\nQuick Print"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_CAPTION_BAR     "Show or hide the caption bar\nToggle Caption Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "Standard"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTPUT_WND          "Output"
+    IDS_PROPERTIES_WND      "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_CAPTIONBAR   "Caption Bar"
+    IDS_BUILD_TAB           "Build"
+    IDS_DEBUG_TAB           "Debug"
+    IDS_FIND_TAB            "Find"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MYCALENDARS         "My Calendars"
+    IDS_CALENDAR            "Calendar"
+    IDS_SHORTCUTS           "Shortcuts"
+    IDS_FOLDERS             "Folders"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTLOOKBAR          "Outlook Bar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAPTION_BUTTON      "Options..."
+    IDS_CAPTION_BUTTON_TIP  "Click here to see more options"
+    IDS_CAPTION_TEXT        "This is a caption bar where a message can be presented to the user."
+    IDS_CAPTION_IMAGE_TIP   "Important"
+    IDS_CAPTION_IMAGE_TEXT  "Here is an informational message for the user."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "Edit"
+END
+
+#endif    // Englisch (USA) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Niederländisch (Niederlande) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NL_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Toevoegen directory"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Naam",IDC_STATIC,7,9,20,8
+    EDITTEXT        IDC_NAME,35,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Pad",IDC_STATIC,7,23,24,8
+    EDITTEXT        IDC_PFAD,35,21,128,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Annuleer",IDCANCEL,130,39,50,14
+END
+
+IDD_NL_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Invoer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Referentie",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Notitie",IDC_STATIC,7,24,36,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Annuleer",IDCANCEL,158,88,50,14
+END
+
+IDD_NL_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 238, 194
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Licentie bevestiging"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Dank u voor het installeren van deze software. U kunt de licentie overeenkomst bevestigen door ons de licentie aanvraag code toe te zenden.",IDC_STATIC,7,7,224,24
+    LTEXT           "Aanvraag code:",IDC_STATIC,7,36,61,8
+    EDITTEXT        IDC_REQUESTCODE,73,35,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&Kopieer naar kladblok",IDC_COPYTOCLIPBOARD,158,34,73,14
+    PUSHBUTTON      "Zend per &WWW",IDC_WWW,7,53,70,14
+    PUSHBUTTON      "Zend per &MAPI mail",IDC_MAPIMAIL,84,53,70,14
+    PUSHBUTTON      "Zend per &internet mail",IDC_INTERNETMAIL,157,53,74,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,71,224,33
+    LTEXT           "U zult na verzending een activatie code (response code) ontvangen waarmee u de installatieprocedure kunt voortzetten.",IDC_STATIC,7,109,224,18
+    LTEXT           "Activatie code:",IDC_STATIC,7,132,57,8
+    EDITTEXT        IDC_RESPONSECODE,97,130,133,12,ES_AUTOHSCROLL
+    LTEXT           "N.b.: Indien u de activatie code niet direct terug ontvangt, kunt u op de Cancel toets klikken en de software setup op een later tijdstip continueren.",IDC_STATIC,7,146,224,25
+    PUSHBUTTON      "Annuleer",IDCANCEL,125,173,50,14
+    DEFPUSHBUTTON   "OK",IDOK,181,173,50,14,WS_DISABLED
+END
+
+IDD_NL_PASSWORT DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Wijziging wachtwoord"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Bevestig wachtwoord",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Annuleer",IDCANCEL,103,42,50,14
+END
+
+IDD_NL_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 180, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Applicatie vergrendeld"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Voer wachtwoord in voor ontgrendeling",IDC_STATIC,7,7,166,10
+    EDITTEXT        IDC_PASSWORT,48,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,67,42,50,14
+    PUSHBUTTON      "Annuleer",IDCANCEL,123,42,50,14
+END
+
+IDD_NL_PASSWORT_CHECK DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Beveiligd met wachtwoord"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Voer wachtwoord in van de opname",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Annuleer",IDCANCEL,103,42,50,14
+END
+
+IDD_PL_PASSWORT_CHECK DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Zabezpieczenie haslem"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Wprowadz haslo dla nagrania",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,103,42,50,14
+END
+
+IDD_PL_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 180, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Aplikacja zablokowana"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Wprowadz haslo aby odblokowac aplikacje",IDC_STATIC,7,7,166,10
+    EDITTEXT        IDC_PASSWORT,48,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,67,42,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,123,42,50,14
+END
+
+IDD_PL_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dodaj folder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Nazwa",IDC_STATIC,7,9,23,8
+    EDITTEXT        IDC_NAME,35,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Sciezka",IDC_STATIC,7,23,25,8
+    EDITTEXT        IDC_PFAD,35,21,128,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,130,39,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_NL_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_NL_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_NL_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_NL_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_NL_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_NL_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_PL_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_PL_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_PL_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Niederländisch (Niederlande) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (Vereinigtes Königreich) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GB_PASSWORT DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Change Password"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please re-enter password to confirm ",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,42,50,14
+END
+
+IDD_GB_PASSWORT_CHECK DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Password Protection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please enter the password of the recording",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,42,50,14
+END
+
+IDD_GB_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Edit record entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Reference",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Note",IDC_STATIC,7,24,20,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,158,88,50,14
+END
+
+IDD_GB_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Folder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_STATIC,7,9,20,8
+    EDITTEXT        IDC_NAME,30,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Path",IDC_STATIC,7,23,15,8
+    EDITTEXT        IDC_PFAD,30,21,133,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,39,50,14
+END
+
+IDD_GB_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Application locked"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter password to unlock the application",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,42,50,14
+END
+
+IDD_GB_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 238, 189
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "License confirmation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Thank you for installing this software. To confirm that you are accepting the license agreement please send us the request code below.",IDC_STATIC,7,7,224,19
+    LTEXT           "Request code:",IDC_STATIC,7,30,50,8
+    EDITTEXT        IDC_REQUESTCODE,65,29,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&Copy to clipboard",IDC_COPYTOCLIPBOARD,161,28,70,14
+    PUSHBUTTON      "Send by &WWW",IDC_WWW,7,47,70,14
+    PUSHBUTTON      "Send by &MAPI mail",IDC_MAPIMAIL,84,47,70,14
+    PUSHBUTTON      "Send by &internet mail",IDC_INTERNETMAIL,161,47,70,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,65,224,33
+    LTEXT           "You will  then receive a response code which will allow you to proceed with the installation procedure.",IDC_STATIC,7,103,224,18
+    LTEXT           "Response code:",IDC_STATIC,7,126,57,8
+    EDITTEXT        IDC_RESPONSECODE,97,124,133,12,ES_AUTOHSCROLL
+    LTEXT           "Note: If you don't receive the response code directly by a phone call, you may press the cancel button and continue the software setup at a later time.",IDC_STATIC,7,140,224,25
+    PUSHBUTTON      "Cancel",IDCANCEL,125,168,50,14
+    DEFPUSHBUTTON   "OK",IDOK,181,168,50,14,WS_DISABLED
+END
+
+IDD_PL_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 261, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Potwierdzenie licencji"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Dziekujemy za zainstalowanie naszego oprogramowania. W celu potwierdzenia akceptacji umowy licencyjnej prosimy o przeslanie nam wymaganego kodu zgloszenia.",IDC_STATIC,7,7,247,25
+    LTEXT           "Kod zgloszenia",IDC_STATIC,7,36,50,8
+    EDITTEXT        IDC_REQUESTCODE,65,35,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&Skopiuj do schowka",IDC_COPYTOCLIPBOARD,184,34,70,14
+    PUSHBUTTON      "Wyslij &WWW",IDC_WWW,7,53,70,14
+    PUSHBUTTON      "Wyslij interfejsem &MAPI",IDC_MAPIMAIL,80,53,81,14
+    PUSHBUTTON      "Wyslij poczta &internetowa",IDC_INTERNETMAIL,165,53,89,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,71,247,33
+    LTEXT           "Wodpowiedzi zostanie przeslany kod, który pozwoli na kontynuacje procedury instalacyjnej.",IDC_STATIC,7,109,247,18
+    LTEXT           "Kod odpowiedzi",IDC_STATIC,7,132,57,8
+    EDITTEXT        IDC_RESPONSECODE,97,130,133,12,ES_AUTOHSCROLL
+    LTEXT           "Uwaga: Jezeli nie otrzymasz kodu odpowiedzi bezposrednio przez telefon, mozesz nacisnac przycisk Anuluj i kontynuowac instalacje oprogramowania w pózniejszym czasie.",IDC_STATIC,7,146,247,25
+    PUSHBUTTON      "Anuluj",IDCANCEL,149,177,50,14
+    DEFPUSHBUTTON   "OK",IDOK,204,177,50,14,WS_DISABLED
+END
+
+IDD_PL_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Edit record entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Reference",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Note",IDC_STATIC,7,24,20,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,158,88,50,14
+END
+
+IDD_PL_PASSWORT DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Change Password"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please re-enter password to confirm ",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,42,50,14
+END
+
+IDD_ARCHIVEWIZZARDPAGE1 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "This wizard will help you to archive your recordings from hard disk to exchangable media.\r\n\r\nFirst select the kind of medium on which you wish to store your data:",IDC_STATIC,112,7,157,41
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    COMBOBOX        IDC_SELECT_MEDIUM,112,54,157,52,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Note: If you wish to use some other storage, just type the number of megabytes in the above input field rather that selecting the medium by using the drop-down button.",IDC_STATIC,112,74,157,33
+END
+
+IDD_ARCHIVEWIZZARDPAGE2 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    LTEXT           "Select recordings to archive:",IDC_STATIC,112,13,164,10
+    CONTROL         "All older recordings up to the max. media size",IDC_METHOD1,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,112,28,164,10
+    CONTROL         "All selected recordings up to max. media size",IDC_METHOD2,
+                    "Button",BS_AUTORADIOBUTTON,112,40,164,10
+    LTEXT           "Note: You may also use the filtering function to restrict archiving to a specific set of recordings.\r\n\r\nAfter pressing the next button the storage consumtion will be calculated.",IDC_STATIC,112,56,164,41
+END
+
+IDD_ARCHIVEWIZZARDPAGE3 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    LTEXT           "Location where the recordings will be temporarily stored for archiving onto your selected media:",IDC_STATIC,112,10,164,17
+    EDITTEXT        IDC_TEMP_FOLDER,112,33,163,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE_TEMP_FOLDER,201,59,60,14
+    LTEXT           "Free space on hard drive:",IDC_STATIC,112,85,88,10
+    LTEXT           "",IDC_SPACE,200,85,76,10
+    LTEXT           "Click Browse to select or create a temporary folder for the archived calls.",IDC_STATIC,112,54,80,27
+END
+
+IDD_ARCHIVEWIZZARDPAGE4 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    LTEXT           "No. of recordings:",IDC_STATIC,112,21,68,10
+    LTEXT           "Please wait while the software is calculating the number and size of the recordings to be archived.",IDC_STATIC,112,0,164,18
+    LTEXT           "",IDC_STORAGE_CONSUMTION,187,32,89,18
+    LTEXT           "Storage consumption:",IDC_STATIC,112,32,71,10
+    LTEXT           "",IDC_NUMBER_OF_RECORDINGS,187,21,89,10
+    PUSHBUTTON      "Recalculate",IDC_RECALCULATE,112,44,50,14
+    EDITTEXT        IDC_STATUS,112,62,164,36,ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Pressing Next will copy the audio files.",IDC_STATIC,112,101,163,10
+END
+
+IDD_ARCHIVEWIZZARDPAGE5 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,-1,"Static",SS_BITMAP,0,0,106,111
+    EDITTEXT        IDC_STATUS,112,46,164,64,ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,112,23,163,14
+    LTEXT           "The wizard is now copying the audio files to the temporary folder. Please stand by...",IDC_MESSAGE,112,0,163,19
+END
+
+IDD_ARCHIVEWIZZARDPAGE7 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    LTEXT           "Please decide what files will be deleted from your harddisk:",IDC_STATIC,112,1,164,16
+    CONTROL         "Only delete files in temporary folder",IDC_DELETE1,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,112,21,163,10
+    CONTROL         "Only the archived recordings in playback folder",IDC_DELETE2,
+                    "Button",BS_AUTORADIOBUTTON,112,33,163,10
+    CONTROL         "Both: recordings in temp. and playback folder",IDC_DELETE3,
+                    "Button",BS_AUTORADIOBUTTON,112,45,163,10
+    LTEXT           "Warning: Make sure that the recordings you stored on your archive medium are readable. Most backup and CD burning software have options to verify the written data. It is highly recommended that you use this option to prevent loss of data.",IDC_STATIC_WARNING,112,70,164,41
+    CONTROL         "Take no action",IDC_DELETE4,"Button",BS_AUTORADIOBUTTON,112,57,163,10
+END
+
+IDD_ARCHIVEWIZZARDPAGE6 DIALOG 0, 0, 276, 111
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Archive Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         AFX_IDC_PRINT_PRINTERNAME,IDC_STATIC,"Static",SS_BITMAP,0,0,106,111
+    LTEXT           "Now use your favorite software for archiving your recording in the temporary folder to your backup medium.",IDC_STATIC,112,15,164,25
+    PUSHBUTTON      "Open temporary folder with Explorer to backup",IDC_OPEN_TEMPORARY_FOLDER,112,45,153,14
+    LTEXT           "After you have backuped the archive, press the next button.",IDC_STATIC,112,80,164,19
+    PUSHBUTTON      "Use Nero Burning ROM to archive files",IDC_NERO_DIALOG,112,62,153,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_GB_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_GB_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_GB_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_GB_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_GB_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_GB_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_PL_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_PL_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_PL_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE5, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE7, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+    END
+
+    IDD_ARCHIVEWIZZARDPAGE6, DIALOG
+    BEGIN
+        LEFTMARGIN, 112
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PHONECOACH_ON_GREY  BITMAP                  "TelarVendorPhoneCoach\\TelarVendorPhoneCoach_on_grey.bmp"
+
+IDB_WIZARD1             BITMAP                  "res\\wizard1.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ARCHIVEWIZZARDPAGE1 DLGINIT
+BEGIN
+    IDC_SELECT_MEDIUM, 0x403, 14, 0
+0x3536, 0x2030, 0x424d, 0x4320, 0x2d44, 0x4f52, 0x004d, 
+    IDC_SELECT_MEDIUM, 0x403, 14, 0
+0x3037, 0x2030, 0x424d, 0x4320, 0x2d44, 0x4f52, 0x004d, 
+    IDC_SELECT_MEDIUM, 0x403, 16, 0
+0x3434, 0x3038, 0x4d20, 0x2042, 0x5644, 0x2d44, 0x4f52, 0x004d, 
+    IDC_SELECT_MEDIUM, 0x403, 16, 0
+0x3938, 0x3036, 0x4d20, 0x2042, 0x5644, 0x2d44, 0x4f52, 0x004d, 
+    0
+END
+
+#endif    // Englisch (Vereinigtes Königreich) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanisch (Spanien, Internationale Sortierung) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_E_ADD_FOLDER DIALOG 0, 0, 187, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Añadir carpeta"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Nombre",IDC_STATIC,7,9,26,8
+    EDITTEXT        IDC_NAME,35,7,44,12,ES_AUTOHSCROLL
+    LTEXT           "Ruta",IDC_STATIC,7,23,15,8
+    EDITTEXT        IDC_PFAD,35,21,128,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SET_PATH,165,21,15,12
+    DEFPUSHBUTTON   "OK",IDOK,76,39,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,130,39,50,14
+END
+
+IDD_E_EDIT DIALOG 0, 0, 215, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Editar inscripción en lista"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Referencia",IDC_STATIC,7,9,37,8
+    EDITTEXT        IDC_PARTNER,48,7,160,12,ES_AUTOHSCROLL
+    LTEXT           "Nota",IDC_STATIC,7,24,20,8
+    EDITTEXT        IDC_NOTIZ,48,22,160,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "OK",IDOK,103,88,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,158,88,50,14
+END
+
+IDD_E_PASSWORT DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Cambiar contraseña"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Reintroducir contraseña para confirmar",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,103,42,50,14
+END
+
+IDD_E_PASSWORT_APPLICATION_LOCKED DIALOG 0, 0, 180, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Aplicación bloqueada"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Introducir contraseña para desbloquear aplicación",IDC_STATIC,7,7,166,10
+    EDITTEXT        IDC_PASSWORT,48,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,67,42,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,123,42,50,14
+END
+
+IDD_E_PASSWORT_CHECK DIALOG 0, 0, 160, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Protección por contraseña"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Introducir la contraseña de la grabación",IDC_STATIC,7,7,146,10
+    EDITTEXT        IDC_PASSWORT,39,23,71,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,47,42,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,103,42,50,14
+END
+
+IDD_E_ENTERRESPONSEKEY_DIALOG DIALOG 0, 0, 268, 189
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "License confirmation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Gracias por instalar este software. Para confirmar que va a aceptar el acuerdo de licencia por favor envíenos el código de bajo.",IDC_STATIC,7,7,254,19
+    LTEXT           "Código de pedido.",IDC_STATIC,7,30,50,8
+    EDITTEXT        IDC_REQUESTCODE,65,29,75,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Desea &copía a clipboard?",IDC_COPYTOCLIPBOARD,181,28,80,14
+    PUSHBUTTON      "Mande por &WWW",IDC_WWW,7,47,81,14
+    PUSHBUTTON      "Mande por &MAPI mail",IDC_MAPIMAIL,94,47,81,14
+    PUSHBUTTON      "Mande por &internet mail",IDC_INTERNETMAIL,181,47,80,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_PHONE,7,65,254,33
+    LTEXT           "En seguida  recibirá un código de respuesta que le permite continuar con la operación de instalación.",IDC_STATIC,7,103,254,18
+    LTEXT           "Código de respuesta",IDC_STATIC,7,126,76,8
+    EDITTEXT        IDC_RESPONSECODE,97,124,164,12,ES_AUTOHSCROLL
+    LTEXT           "Nota: Si no se recibe el código de respuesta por telefono, pulse el boton 'cancel'. Y continue la instalación del software más tarde.",IDC_STATIC,7,140,254,25
+    PUSHBUTTON      "Cancelar",IDCANCEL,155,168,50,14
+    DEFPUSHBUTTON   "OK",IDOK,211,168,50,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_E_ADD_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_E_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_E_PASSWORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_E_PASSWORT_APPLICATION_LOCKED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_E_PASSWORT_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_E_ENTERRESPONSEKEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanisch (Spanien, Internationale Sortierung) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Telar.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#if !defined(_AFXDLL)
+#include "afxribbon.rc"              // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
