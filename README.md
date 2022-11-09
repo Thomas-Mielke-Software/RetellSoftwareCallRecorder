@@ -8,7 +8,7 @@ The source code is therefore not a good example on how to use C++ in a modern wo
 
 ## Build
 
-To build, you need Microsoft Visual Studio 2022 (Preview) with C++ and MFC support. You also need a static build of the (ResizableLib)[https://github.com/ppescher/resizablelib].
+To build, you need Microsoft Visual Studio 2022 (Preview) with C++ and MFC support. You also need a static build of the ResizableLib https://github.com/ppescher/resizablelib.
 
 ## License
 
