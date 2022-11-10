@@ -16,7 +16,14 @@ OutputDir=.\Scr
 Compression=zip
 PrivilegesRequired=admin
 ArchitecturesAllowed=x64
-ArchitecturesInstallIn64BitMode=x64
+ArchitecturesInstallIn64BitMode=x64   
+
+SignTool=winsdk10sha1   ; dual sign the installer
+SignTool=winsdk10sha256 ; ^
+;Menu -> Tools -> Configure Sign Tool...
+;winsdk10sha1: "C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\signtool.exe" sign /t http://timestamp.comodoca.com $f
+;winsdk10sha256: "C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\signtool.exe" sign /tr http://timestamp.comodoca.com /fd sha256 /td sha256 /as $f 
+;with Certum card manager make sure to enable "EV Card Signing" in the options
 
 [Messages]
 WelcomeLabel2=This will install the [name/ver] on your computer.%n%nIMPORTANT NOTICE:%n%nIf you want to update an allready fully licensed copy of the software, it is recommended that you deactivate the SCR (if it is now running). DON'T UNINSTALL the SCR prior to applying this update and don't install to an other directory than you have before!%n%nIf you install this software to run as a demo, you will have a period of 65 days until the software stops working.
@@ -49,9 +56,7 @@ Source: w32SQLite3\x64\Release\w32SQLite3.dll; DestDir: {app}; Flags: restartrep
 ;Source: ivrlla.dll; DestDir: {app}; Flags: restartreplace ignoreversion
 Source: TrsIndex\x64\Release\ReIndex.exe; DestDir: {app}; Flags: restartreplace ignoreversion
 Source: Dokumentation\SCR 957 Manual.pdf; DestDir: {app}; Flags: ignoreversion
-Source: Dokumentation\ReadMe.txt; DestDir: {app}; Flags: ignoreversion
 
-Source: _Stuff\SCRLicServer\SCRLicServerps.dll; DestDir: {app}; Flags: 32bit regserver restartreplace
 Source: TelArLangEnglish\x64\Release\Telarlng.dll; DestDir: {app}; Components: English; Flags: restartreplace ignoreversion
 Source: TelArLangDeutsch\x64\Release\Telarlng.dll; DestDir: {app}; Components: German; Flags: restartreplace ignoreversion
 Source: TelArLangEspanol\x64\Release\Telarlng.dll; DestDir: {app}; Components: Spanish; Flags: restartreplace ignoreversion
