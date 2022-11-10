@@ -850,7 +850,7 @@ void CAboutDlg::OnPaint()
 	dc.DrawText("Licensed under the GNU GPL v3.0\r\© 2022 Vidicode UK && Thomas Mielke" , rc, DT_WORDBREAK | DT_TABSTOP);
 
 	CDialog::OnPaint();
-}
+} 
 
 void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 {
