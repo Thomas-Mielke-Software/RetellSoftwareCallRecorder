@@ -847,7 +847,7 @@ void CAboutDlg::OnPaint()
 	rc.right += 15;
 	rc.top += 30-(!*m_titel?15:0);
 	rc.bottom += 30-(!*m_titel?15:0);
-	dc.DrawText("Licensed under the GNU GPL v3.0\r\ncopyright © 2022 Thomas Mielke\r\nMost translations and the manual copyright © 2022 Vidicode UK" , rc, DT_WORDBREAK | DT_TABSTOP);
+	dc.DrawText("Licensed under the GNU GPL v3.0\r\© 2022 Vidicode UK && Thomas Mielke" , rc, DT_WORDBREAK | DT_TABSTOP);
 
 	CDialog::OnPaint();
 }

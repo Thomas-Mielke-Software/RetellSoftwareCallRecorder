@@ -13,4 +13,4 @@ Before Running, copy SCRVistaHelper.dll and a vendor dll into your debug or rele
 
 ## License
 
-This software war released under the GNU General Public License v3.0.
+This software was released under the GNU General Public License v3.0.

@@ -53,9 +53,9 @@ END
 STRINGTABLE
 BEGIN
     IDS_STRING1             "Retell"
-    IDS_STRING2             "Retell: E-Mail sales@retell.co.uk or phone +44 (0)1932 779755"
-    IDS_STRING3             "sales@retell.co.uk"
-    IDS_STRING4             "www.retell.co.uk"
+    IDS_STRING2             "Retell: E-Mail sales@vidicodeuk.com"
+    IDS_STRING3             "sales@vidicodeuk.com"
+    IDS_STRING4             "vidicodeuk.com"
     IDS_STRING5             "+44 (0)1932 779755"
     IDS_STRING6             "Retell"
 END
