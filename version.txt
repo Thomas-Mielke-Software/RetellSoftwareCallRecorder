@@ -1,0 +1,2 @@
+v2.00: This is an open-sourced version, built on the current Microsoft development environment. There were several bugfixes, expecially on the x64 platform binaries.
+v2.01: The updater was changed to download the binaries form GitHub directly.
